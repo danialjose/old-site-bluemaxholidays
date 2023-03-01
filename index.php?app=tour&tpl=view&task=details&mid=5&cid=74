@@ -1,0 +1,451 @@
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>GOLDEN TRIANGLE  PACKAGE</title>
+  	<meta name="keywords" content="GOLDEN TRIANGLE PACKAGE">
+  	<meta name="description" content="">
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<!--Nvigation Start-->
+<script type="text/javascript" src="assets/scripts/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="scripts/milonic_src.js"></script>
+<script type="text/javascript" src="scripts/mmenudom.js"></script>
+<script>
+_menuCloseDelay=100;          // The time delay for menus to remain visible on mouse out
+_menuOpenDelay=300;            // The time delay before menus open on mouse over
+_subOffsetTop=5;              // Sub menu top offset
+_subOffsetLeft=-2;             // Sub menu left offset
+with(menuStyleL=new mm_style()){
+	offbgcolor="#0055a7";
+	offcolor="#ffffff";
+	onbgcolor="#007dc6";
+	oncolor="#222222";
+	bordercolor="#007dc6";
+	borderstyle="solid";
+	borderwidth=1; 
+	separatorcolor="#007dc6";
+	separatorsize="1";
+	padding=4;
+	fontsize="12px";
+	fontweight="normal";
+	fontfamily="Arial";
+	pagecolor="#CC0C0B";
+	pagebgcolor="#ffffff";
+	headercolor="#330066";
+	headerbgcolor="#330066";
+	subimage ="images/red.png";
+	onsubimage ="images/red.png";
+	subimagepadding="8";
+	overfilter="Wipe(GradientSize=1.0,wipeStyle=1,motion=forward,enabled=0,Duration=0.65,a);Shadow(color='#e8e7e7', Direction=130, Strength=1)";
+}
+		with(link=new menuname("A1"))
+		{
+		style=menuStyleL;
+		overflow="scroll";
+		position="fixed";
+			  
+				
+		}
+		
+		with(link=new menuname("A3"))
+		{		 
+		style=menuStyleL;
+		overflow="scroll";
+		position="fixed";				
+				
+				aI("showmenu=district;text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;District &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=#;target=_self");
+				aI("showmenu=Attractions;text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attractions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=#;target=_self");
+				aI("showmenu=popularMenu;text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Popular Destinations &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=20&featured=1;target=_self");			
+				
+				
+				with(link=new menuname("district"))
+				{		 
+				style=menuStyleL;
+				overflow="scroll";
+				position="fixed";
+												aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Goa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=33;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hyderabad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=34;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kashmir&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=35;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nepal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=36;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Uttar Pradesh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=38;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Uttar Pradesh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=37;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ernakulam&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=1;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Idukki&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=5;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kottayam&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=16;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alappuzha&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=2;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kollam&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=4;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pathanamthitta&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=3;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thiruvananthapuram&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=6;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wayanad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=11;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thrissur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=15;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Palakkad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=14;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Malappuram&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=13;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kozhikode&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=12;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kasaragod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=10;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kannur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=7;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bangalore&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=17;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mysore&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=18;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ooty&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=20;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Masanagudi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=21;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kodaikanal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=22;target=_self");
+												
+				}
+				
+				with(link=new menuname("popularMenu"))
+				{		 
+				style=menuStyleL;
+				overflow="scroll";
+				position="fixed";
+												aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Munnar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=details&mid=3&cid=1;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thekkady&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=details&mid=3&cid=2;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kumarakom&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=details&mid=3&cid=5;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alleppey&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=details&mid=3&cid=10;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kollam&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=details&mid=3&cid=11;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Varkala&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=details&mid=3&cid=12;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trivandrum&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=details&mid=3&cid=13;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kovalam&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=details&mid=3&cid=4;target=_self");
+												
+				}
+				with(link=new menuname("Attractions"))
+				{		 
+				style=menuStyleL;
+				overflow="scroll";
+				position="fixed";
+												aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Backwater&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=11;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beaches&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=4;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;City&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=10;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heritage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=6;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hill Stations&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=5;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;House Boat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=2;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lakes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=9;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pilgrimage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=8;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Waterfalls&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=7;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wildlife&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=1;target=_self");
+															
+				}	
+		}
+
+		
+		
+		with(link=new menuname("A4"))
+		{
+		style=menuStyleL;
+		overflow="scroll";
+		position="fixed";	  
+				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Booking Enquiry &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=booking&mid=8;target=_self");
+				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=content&tpl=view&task=contact&mid=8;target=_self");
+				}
+				
+		with(link=new menuname("A6"))
+		{
+		style=menuStyleL;
+		overflow="scroll";
+		position="fixed";	  
+				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Customized Tours &nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://visitkerala.in/customized_tours;target=_self");
+				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rent-a-Car &nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://visitkerala.in/Rent-a-Car;target=_self");
+				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Travel Tips &nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://visitkerala.in/travel_tips;target=_self");
+				}
+		with(link=new menuname("A7"))
+		{
+		style=menuStyleL;
+		overflow="scroll";
+		position="fixed";	  
+				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Booking Enquiry &nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://visitkerala.in/booking;target=_self");
+				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Us &nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://visitkerala.in/contacts;target=_self");
+				}
+drawMenus();
+</script><!--Nvigation End-->
+</head>
+<body>
+<div id="WrapperMain">
+  <div id="Wrapper">
+    			<div id="Header_area">
+            	<div id="LogoLeft"><a href="index.php"><img src="images/logo.jpg" alt="" border="0" width="120"/></a></div>
+                <div id="LogoRight"><img src="http://bluemaxholidays.com/uploaded_files/banner/image_1.png" width="148" height="111" title="" alt="top" border="0"></div>
+            </div>
+    
+    <!--NAVIGATION AREA START-->
+    <div id="Navigation">
+     				<ul>
+                	<li><a href="http://bluemaxholidays.com/index.php?app=" class="">Home</a></li>
+                    <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=2" class="">About&nbsp;Us </a></li>
+                    <li><a href="#" id='A3' onMouseOver='popup("A3","A3");' onMouseOut='popdown()' class="">Destinations</a></li>
+                    <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=4" class="">Art&nbsp;&amp;&nbsp;Culture</a></li>
+                    <li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5" class="active">Tour&nbsp;Packages</a></li>
+                    <li><a href="http://bluemaxholidays.com/index.php?app=hotel&tpl=view&task=showAll&mid=6" class="">Accomodation</a></li>
+                    <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=7" class="">Travel&nbsp;Desk</a></li>
+                    <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=contact&mid=8" class="">Contact&nbsp;Us </a></li>
+                </ul>
+      <div class="clear"></div>
+    </div>
+    <!--NAVIGATION AREA END-->
+    
+    <div id="Banner"> <img src="http://bluemaxholidays.com/uploaded_files/banner/image_13.jpg" width="" height="" title="" alt="Inner 1" border="0"></div>
+    
+    
+    <div id="Whatsnew_area">
+     <div id="Whatsnew_head">What’s New</div>
+      <div id="Whatsnew_textarea">	  
+        <ul>
+          <li style="background:none;"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=list&mid=5">Tour Packages</a></li><li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&cid=2" class="active">North Indian packages</a></li><li><a href="#" class="active">GOLDEN TRIANGLE  PACKAGE</a></li>        </ul>
+      </div>
+      <div class="clear"></div>
+    </div>
+    
+    
+    <!--CONTETN AREA START-->
+    <div id="ContentArea">
+      <h1>GOLDEN TRIANGLE  PACKAGE</h1>
+      <div id="MainContentarea">
+        
+        <!--LEFT CONTENT AREA START-->
+        <div id="LeftContentarea">
+         		
+      <p>
+	  <div style="float:left;padding-right:10px;width:300px;height:auto"><img src="uploaded_files/tour/large_74.jpg" width="100%" /></div>
+	  <div style="float:right;width:350px">
+	  <b>Code</b> : NH 03<br />
+	  <b>Days</b> : 05 Nights/06 Days<br />
+	  <b>Category</b> : North Indian packages<br />
+	  <b>Destination</b> : Delhi<br />
+	  Delhi	  </div>
+	  <div style="clear:both"></div><br />
+	  	  <h4>Covered Locations</h4>
+	  	<ul style="margin:0px;padding:0px;">
+	  				<li style="list-style:url(images/bullet.png);margin-left:20px;line-height:22px">Agra</li>
+		
+	  			<li style="list-style:url(images/bullet.png);margin-left:20px;line-height:22px">Delhi</li>
+		
+	  			<li style="list-style:url(images/bullet.png);margin-left:20px;line-height:22px">Jaipur</li>
+		
+	  		</ul>
+			  
+	  <p style="text-align: justify;"><span style="font-size: larger;"><b>Day 01 : Arrive Delhi&nbsp;</b></span></p>
+<div><span style="font-size:8.0pt;Verdana&quot;,&quot;sans-serif&quot;;color:#555555"> You will be met on your arrival at Delhi International Airport and transferred to the hotel of your choice. Overnight in Delhi.&nbsp;</span></div>
+<div style="text-align: justify;">&nbsp;</div>
+<div style="text-align: justify;"><span style="font-size: larger;"><b>Day-02: In Delhi</b></span><span style="font-size:8.0pt;Verdana&quot;,&quot;sans-serif&quot;;color:#555555"><br />
+Breakfast at the hotel followed by a full day sight-seeing tour of Old and New Delhi visiting - The Red Fort, Friday Mosque -- Jama Masjid, The silver street of Chandni Chowk, Raj Ghat, The Hindu temple -- Birla Mandir, The India Gate, The Rashtrapati Bhawan -- President's House, Humayun's Tomb, Qutub Minar and The Bahai Temple. Overnight in Delhi.&nbsp;</span></div>
+<div style="text-align: justify;">&nbsp;</div>
+<div style="text-align: justify;">&nbsp;</div>
+<div style="text-align: justify;"><span style="font-size: larger;"><b>Day 03 : Delhi-Agra</b></span><span style="font-size:8.0pt;Verdana&quot;,&quot;sans-serif&quot;;color:#555555"><br />
+After breakfast, depart for Agra by road (220 kms /04 hrs). On your arrival in Agra check into the hotel of your choice. Afternoon sight-seeing tour of Agra visiting the Taj Mahal and the Red Fort. The visit to the Taj Mahal will long be remembered by you as the highlight of your Golden Triangle tour. Overnight in Agra.&nbsp;</span></div>
+<div style="text-align: justify;">&nbsp;</div>
+<div style="text-align: justify;"><span style="font-size: larger;"><b>Day 04 : Agra- Jaipur</b></span><span style="font-size:8.0pt;Verdana&quot;,&quot;sans-serif&quot;;color:#555555"><br />
+After breakfast, depart for Jaipur by road (250 kms /05 hrs) en-route visiting Fatehpur Sikri. Jaipur, also called the Pink city, is the last stop of your tour to India&rsquo;s Golden Triangle. On your arrival in Jaipur check into the hotel of your choice. Overnight in Jaipur.</span></div>
+<div style="text-align: justify;">&nbsp;</div>
+<div style="text-align: justify;"><span style="font-size: larger;"><b>Day 05 : In Jaipur</b></span><span style="font-size:8.0pt;Verdana&quot;,&quot;sans-serif&quot;;color:#555555"><br />
+Breakfast at the hotel followed by a full day sight-seeing tour of Jaipur visiting Hawa Mahal -- The Palace of Winds, The Jantar Mantar, The City Palace and the Amber Fort. Your tour includes a ride up the Fort on an Elephant's back. Overnight in Jaipur.&nbsp;</span></div>
+<div style="text-align: justify;">&nbsp;</div>
+<div style="text-align: justify;"><span style="font-size: larger;"><b>Day 06 : Jaipur - Delhi&nbsp;</b></span><span style="font-size:8.0pt;Verdana&quot;,&quot;sans-serif&quot;;color:#555555"><br />
+Breakfast at the hotel. Morning at leisure in Jaipur until departure for Delhi by road (265 kms/05 hrs). Your Golden Triangle tour ends with a drop to either a hotel in New Delhi or at the International Airport in time to board your flight home.</span></div>
+<div style="text-align: justify;">&nbsp;</div>
+<div style="text-align: justify;"><b><u><span style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">PACKAGE INCLUDES:</span></u></b></div>
+<p class="MsoNormal" style="text-align:justify;tab-stops:318.0pt"><b><u><span style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">&nbsp;</span></u></b><span lang="EN-GB" style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Accomodation on Twin Sharing Basis as per the package category.<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;tab-stops:318.0pt"><span lang="EN-GB" style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Meals as per the plan indicated in the table above.<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;tab-stops:318.0pt"><span lang="EN-GB" style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Transfers &amp; Sightseeing as per the itinerary in an appropriately sized non A/c private vehicle Ex Delhi.<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpLast" style="text-align:justify;tab-stops:318.0pt"><span lang="EN-GB" style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">All category Himachal Packages include transfers &amp; sightseeing in Non A/c Indica (02 Pax) &amp; Non A/c Tavera (04, 06 Pax).<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;tab-stops:318.0pt"><span style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">&nbsp;</span><b><u><span style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">PACKAGE EXCLUDES:<o:p></o:p></span></u></b></p>
+<p class="MsoListParagraph" style="text-align:justify;tab-stops:318.0pt"><span lang="EN-GB" style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">&nbsp;</span><span lang="EN-GB" style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Any expenses of personal Nature, <o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;tab-stops:318.0pt"><span lang="EN-GB" style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Tips, Porterages, Guide Charges, <o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;tab-stops:318.0pt"><span lang="EN-GB" style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Entrance fees, Telephone Calls, Camera Charges Etc.<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;tab-stops:318.0pt"><span lang="EN-GB" style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Any Airfare / Railway Tickets <o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;tab-stops:318.0pt"><span lang="EN-GB" style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Anything not mentioned in the above inclusions.<o:p></o:p></span></p>
+<p class="MsoListParagraph" style="text-align:justify;tab-stops:318.0pt"><span lang="EN-GB" style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">&nbsp;</span><b><u><span style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">TERMS &amp; CONDITIONS:<o:p></o:p></span></u></b></p>
+<p class="MsoNormal" style="text-align:justify;tab-stops:318.0pt"><span lang="EN-GB" style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">The above packages are commissionable to Travel Agents / Tour Operators by 15 %.<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;tab-stops:318.0pt"><span lang="EN-GB" style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">The Packages are Valid till June 2011, <o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;tab-stops:318.0pt"><span lang="EN-GB" style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">The Rooms are subject to Availability at the time of booking, incase of non availability efforts will be made to book the package in similar category hotels.<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;tab-stops:318.0pt"><span lang="EN-GB" style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Bookings are subject to confirmations only once the full payment is deposited at least 7 days prior to departure.<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;tab-stops:318.0pt"><span lang="EN-GB" style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Cost is subject to change without prior notice, the travel management company shall not be held responsible for the same in any manner whatsoever<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;tab-stops:318.0pt"><span lang="EN-GB" style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Cancelled bookings will be liable for full retention, if cancelled within 7 Days before departure, incase of cancellation before 7 Days, there will be 50 % of Package cost charged as retention.<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;tab-stops:318.0pt"><span lang="EN-GB" style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">The company will not assume any liability for cancellations arising due to Natural or Man Made disasters on or before the tour, any extra expenses arising out of such situations will have to be borne by the clients.<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;tab-stops:318.0pt"><span lang="EN-GB" style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">Rates for Extra Bed &amp; Child w/o Bed are Nett &amp; Non Commissionable.<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpLast" style="text-align:justify;tab-stops:318.0pt"><span lang="EN-GB" style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">2.58 % Government Service Tax (GST) Applicable Extra. <o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;tab-stops:318.0pt"><span style="font-family:&quot;Palatino Linotype&quot;,&quot;serif&quot;">&nbsp;</span></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<div style="text-align: justify;">&nbsp;</div>
+<div style="text-align: justify;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<div style="text-align: justify;">&nbsp;</div> </p>
+      <div style="text-align:right"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=booking&mid=5&tour_id=74"><img src="images/enquiry.png" border="0"/></a></div>          <div class="clear"></div>
+        </div>
+        <!--LEFT CONTENT AREA END-->
+        
+        <!--RIGHT CONTENT AREA START-->
+		         <div id="RightContentarea">
+          <div id="RightLinks">
+		              <h2>Select Another District</h2>
+            <ul>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=38">Uttar Pradesh</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=37">Uttar Pradesh</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=36">Nepal</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=35">Kashmir</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=34">Hyderabad</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=33">Goa</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=1">Ernakulam</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=5">Idukki</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=16">Kottayam</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=2">Alappuzha</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=4">Kollam</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=3">Pathanamthitta</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=6">Thiruvananthapuram</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=11">Wayanad</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=15">Thrissur</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=14">Palakkad</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=13">Malappuram</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=12">Kozhikode</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=10">Kasaragod</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=7">Kannur</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=17">Bangalore</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=18">Mysore</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=20">Ooty</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=21">Masanagudi</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=22">Kodaikanal</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=24">Rameshwaram</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=23">Madurai</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=19">Coorg</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=28">Goa</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=8">Delhi</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=26">Jaipur</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=27">Manali</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=25">Agra</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=29">Dubai</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=30">Andaman Islands</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=31">Singapore</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=32">Malaysia</a></li>
+			             </ul>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <!--RIGHT CONTENT AREA START-->
+        
+        <div class="clear"></div>
+      </div>
+      
+      <!--BTTOM LINKS AREA START-->
+		                <div id="BottomLinksarea">
+                	<div class="tourpackages" style="padding-left:0px;">
+                    	<h1>Tour Packages</h1>
+                        <ul>
+								
+                            <li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&category_id=6">Ayurveda Pack</a></li>
+                            	
+                            <li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&category_id=5">International Tours</a></li>
+                                                  	</ul>
+                    
+<style type="text/css">
+.bl a:link {color: #fff;} .bl a:visited {color: #fff;} .bl a:hover {color: #fff;} .bl a:active {color: #fff;}</style>
+<div class="bl"><a href="http://x-sexy.in/escorts.php?location=Lucknow" target="_blank">Lucknow Escorts</a><br/>
+<a href="http://dolly.co.in" target="_blank">Bangalore Escorts</a></div>
+
+                    </div>
+                    
+                    <div class="tourpackages">
+                    	<h1>Services</h1>
+                        <ul>
+                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=9">Confernce</a></li>
+                            <li><a href="http://bluemaxholidays.com/index.php?app=hotel&tpl=view&task=booking&mid=6">Hotel Booking</a></li>
+                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=10">Ticketing</a></li>
+                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=11">Health Tourism</a></li>
+                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=12">Kerala Taxi</a></li>
+                      	</ul>
+                    
+                    </div>
+                    
+                    <div class="tourpackages">
+                    	<h1>Know Kerala</h1>
+                        <ul>
+                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=13">Overview</a></li>
+                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=14">A Brief History</a></li>
+                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=4">Art & Culture</a></li>
+                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=15">Cuisine</a></li>
+                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=16">People & Life Style</a></li>
+                      	</ul>
+                   
+                    </div>
+                    
+                    <div class="followus_area">
+                    	<h1>Follow Us on</h1>
+                        <div class="follow_icon">
+                            <ul>
+                                  <li style="margin:0;"><a href="#"><img src="images/follow_f.png" alt="" /></a></li>
+                                  <li><a href="#"><img src="images/follow_t.png" alt="" /></a></li>
+                                  <li><a href="#"><img src="images/follow_in.png" alt="" /></a></li>
+                                  <li><a href="#"><img src="images/follow_n.png" alt="" /></a></li>
+                            </ul>
+                        <div class="clear"></div>
+                        </div>
+                        
+                        <div class="photogallery"><a href="http://bluemaxholidays.com/index.php?app=photo&tpl=view&task=showAll&mid=17">Photo Gallery</a></div>
+                        <div class="videogallery"><a href="http://bluemaxholidays.com/index.php?app=video&tpl=view&task=showAll&mid=18">Video Gallery</a></div>
+                        
+                    </div>
+               
+               <div class="clear"></div>
+               </div>
+      <!--BTTOM LINKS AREA END-->
+      
+      <!--FOOTER AREA START-->
+      <div id="Footer_area">
+                  <div id="Leftfooter">Copyright @ 2016 www.bluemaxholidays.com. All Rights Reserved </div>
+                  <div id="Rightfooter">Design & Developed by <a href="http://www.oxfotech.com/" target="_blank">www.oxfotech.com</a></div>
+                </div>
+
+<!--Start of Zopim Live Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+$.src='//v2.zopim.com/?2AG4yKzQnKECUzHoB2xN3YogPWyogCUI';z.t=+new Date;$.
+type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+</script>
+<!--End of Zopim Live Chat Script-->      <div class="clear"></div>
+    </div>
+    <!--CONTETN AREA END-->
+    
+    <div class="clear"></div>
+  </div>
+  <!--WRAPPER DIV END-->
+  
+  <div class="clear"></div>
+</div>
+<!--WRAPPER MAIN DIV END-->
+
+</body>
+</html>

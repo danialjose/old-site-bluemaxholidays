@@ -1,0 +1,507 @@
+@charset "utf-8";
+/* CSS Document Created By Fayas Majeed */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	margin:0 auto;
+	padding:0;
+	background:url(../images/bg.jpg) center top no-repeat;
+}
+
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{
+	margin:0; padding:0;
+}
+
+H1, H2, H3, H4, H5, H6, UL, LI, FORM {
+	margin:0;
+	padding:0;
+}
+
+H1, H2, H3, H5, H6 {
+	display:block;
+}
+
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#6c5f5f;
+	font-weight:bold;
+	padding-bottom:15px;
+}
+
+H2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#00aeef;
+	text-transform:uppercase;
+	padding:10px 0px;
+}
+
+H3 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#6c5f5f;
+	font-weight:bold;
+	padding-top:10px;
+}
+
+H4 {
+	
+}
+
+H5 {
+	
+}
+
+UL LI {
+	list-style-type:none;	
+}
+
+P {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	text-align:justify;
+	line-height:18px;
+	padding:10px 0px;
+}
+
+img{
+	border:0;
+}
+
+.clear {
+	height:0px;
+	line-height:0px;
+	font-size:0px;
+	display:block;
+	clear:both;
+}
+
+/*---Main Style Start Here---*/
+#WrapperMain{
+	width:1003px;
+	margin:0 auto;
+}
+
+#Wrapper{
+	width:974px;
+	margin:0 auto;
+}
+
+#Header_area{
+	width:974px;
+	height:151px;
+}
+
+#LogoLeft{
+	width:240px;
+	height:115px;
+	float:left;
+	margin-top:15px;
+}
+
+#LogoRight{
+	width:148px;
+	height:111px;
+	float:right;
+	margin-top:20px;
+	margin-right:40px;
+}
+
+/*---Navigation Start Here---*/
+#Navigation{
+	width:974px;
+	height:40px;
+	background:url(../images/navibg.gif) repeat-x;
+}
+
+#Navigation ul li{
+	list-style:none;
+	float:left;
+}
+
+#Navigation ul li a{
+	font-family:"Myriad Pro";
+	font-size:16px;
+	color:#000000;
+	display:block;
+	text-decoration:none;
+	padding:11px 22px;
+}
+
+#Navigation ul li a:hover,#Navigation ul li a.active{
+	background:url(../images/navi_over.gif) repeat-x;
+}
+/*---Navigation Start End---*/
+
+#Banner{
+	width:974px;
+	height:334px;
+	margin:10px 0px;
+}
+
+#Whatsnew_area{
+	width:974px;
+	background:#FFFFFF;
+	border:1px solid #cecece;
+}
+
+#Whatsnew_head{
+	width:122px;
+	font-family:"Myriad Pro";
+	font-size:14px;
+	color:#fff;
+	/*font-weight:bold;*/
+	text-align:center;
+	background:#00aeef;
+	float:left;
+	padding:12px 0px;
+}
+
+#Whatsnew_textarea{
+	width:822px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#222222;
+	float:left;
+	background:url(../images/watsnew_arrow.png) left center no-repeat;
+	padding:12px 15px;
+}
+
+
+/*---Content Area Start---*/
+#ContentArea{
+	width:914px;
+	background:#fff;
+	margin-top:10px;
+	padding:20px 30px 15px 30px;
+}
+
+/*---Holiday Package Area Start---*/
+#HodidayPackagearea{
+	width:914px;
+	border-top:1px solid #e7e6e5;
+	border-bottom:1px solid #e7e6e5;
+	padding:15px 0px;
+}
+
+.holiday_package{
+	width:206px;
+	float:left;
+	
+}
+
+.holiday_photo{
+	width:198px;
+	height:118px;
+	border:1px solid #dbdbdb;
+	padding:3px;
+}
+
+.holiday_duration{
+	width:206px;
+	padding-bottom:10px;
+}
+
+.holiday_duration ul li{
+	list-style:none;
+	border-bottom:1px dashed #025979;
+	line-height:34px;
+}	
+
+.holiday_duration ul li a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#6d6e71;
+	text-decoration:none;
+	display:block;
+}
+
+.holiday_duration ul li a span{
+	color:#00aeef;
+	font-weight:bold;
+	float:right;
+}
+
+.viewall{
+	width:62px;
+	height:19px;
+	background:url(../images/vieall_bg.png) no-repeat;
+	text-align:center;
+	padding-top:4px;
+}
+
+.viewall a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.viewall a:hover{
+	color:#000000;
+}
+/*---Holiday Package Area End---*/
+
+#MiddleArea{
+	width:914px;
+	padding:15px 0px;
+}
+
+#AyurvedaPakages{
+	width:311px;
+	float:left;
+}
+
+.ayurveda_image{
+	width:303px;
+	height:111px;
+	border:1px solid #dbdbdb;
+	padding:3px;
+}
+
+.readmore{
+	width:73px;
+	height:19px;
+	background:url(../images/readmore_bg.png) no-repeat;
+	text-align:center;
+	padding-top:4px;
+	float:right;
+}
+
+.readmore a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:none;
+	display:block;
+}
+
+.readmore a:hover{
+	color:#000000;
+}
+
+#FeaturedTours{
+	width:314px;
+	float:left;
+	margin-left:25px;
+}
+
+#FeaturedTours ul li{
+	width:98px;
+	/*height:184px;*/
+	list-style:none;
+	float:left;
+	
+}
+
+#FeaturedTours ul li a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000;
+	text-align:center;
+	text-decoration:none;
+	background:#ffcd07;
+	display:block;
+	padding:7px 0px;
+}
+
+#FeaturedTours ul li a:hover{
+	background:#fff200;
+}
+
+#PlanYourTriparea{
+	width:235px;
+	float:right;
+	border:1px solid #e7e6e5;
+	padding-bottom:8px;
+}
+
+.planoyourtrip{
+	width:190px;
+	background:url(../images/plabyourtrip_bg.jpg) no-repeat;
+	margin-left:23px;
+}
+
+.listmenu{
+	width:188px;
+	height:20px;
+	border:1px solid #bdcef7;
+	margin-top:5px;
+}
+
+.proceed_btn{
+	width:62px;
+	height:23px;
+	background:url(../images/proceed_btn.png) no-repeat;
+	float:right;
+	border:none;
+	cursor:pointer;
+	margin-top:5px;
+}
+
+.hotelimage{
+	width:189px;
+	height:70px;
+	margin-top:10px;
+}
+
+
+#BottomLinksarea{
+	width:914px;
+	border-top:1px solid #e7e6e5;
+	border-bottom:1px solid #e7e6e5;
+	padding:15px 0px;
+}
+
+.tourpackages{
+	float:left;
+	border-right:1px dashed #7f7f7f;
+	padding:0px 50px;
+}
+
+.tourpackages h1{
+	padding-bottom:5px;
+}
+
+.tourpackages ul li{
+	list-style:none;
+	line-height:28px;
+}
+
+.tourpackages ul li a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+	text-decoration:none;
+	background:url(../images/arrow_black.png) left center no-repeat;
+	padding-left:13px;
+	display:block;
+}
+
+.tourpackages ul li a:hover{
+	text-decoration:underline;
+}
+
+.bottom_readmore {
+	width:70px;
+	margin-top:10px;
+}
+
+.bottom_readmore a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+	text-decoration:underline;
+	background:url(../images/readmore_arrow.png) right center no-repeat;
+	display:block;
+}
+
+.bottom_readmore a:hover{
+	text-decoration:none;
+}
+
+.followus_area{
+	width:180px;
+	float:left;
+	padding-left:50px;
+}
+
+.follow_icon{
+	margin-bottom:14px;
+}
+
+.follow_icon ul li{
+	list-style:none;
+	float:left;
+	margin-left:15px;
+}
+
+.follow_icon ul li a:hover{
+	opacity:0.6;
+}
+
+.photogallery{
+	border-top:1px dashed #7f7f7f;
+	padding:14px 0px;
+}
+
+.photogallery a{
+	height:23px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#222222;
+	text-decoration:none;
+	font-weight:bold;
+	background:url(../images/photo_icon.png) left 0px no-repeat;
+	padding:5px 0px 0px 45px;
+	display:block;
+}
+
+.photogallery a:hover{
+	text-decoration:underline;
+}
+
+
+.videogallery{
+	border-top:1px dashed #7f7f7f;
+	padding-top:14px;
+}
+
+.videogallery a{
+	height:32px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color:#222222;
+	text-decoration:none;
+	font-weight:bold;
+	background:url(../images/video_icon.png) left 0px no-repeat;
+	padding:5px 0px 0px 45px;
+	display:block;
+}
+
+.videogallery a:hover{
+	text-decoration:underline;
+}
+
+/*---Footer Area Start---*/
+#Footer_area{
+	width:914px;
+	padding-top:15px;
+}
+
+DIV#Leftfooter{
+	color:#7f7f7f;
+	float:left;
+}
+
+DIV#Rightfooter{
+	color:#7f7f7f;
+	float:right;	
+}
+
+DIV#Rightfooter a{
+	font-size:12px;
+	color:#7f7f7f;
+	text-decoration:none;
+}
+
+DIV#Rightfooter a:hover{
+	color:#000;
+}
+
+
+
+
+

@@ -1,0 +1,575 @@
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Bluemax</title>
+  	<meta name="keywords" content="">
+  	<meta name="description" content="">
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<!--Nvigation Start-->
+<script type="text/javascript" src="assets/scripts/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" src="scripts/milonic_src.js"></script>
+<script type="text/javascript" src="scripts/mmenudom.js"></script>
+<script>
+_menuCloseDelay=100;          // The time delay for menus to remain visible on mouse out
+_menuOpenDelay=300;            // The time delay before menus open on mouse over
+_subOffsetTop=5;              // Sub menu top offset
+_subOffsetLeft=-2;             // Sub menu left offset
+with(menuStyleL=new mm_style()){
+	offbgcolor="#0055a7";
+	offcolor="#ffffff";
+	onbgcolor="#007dc6";
+	oncolor="#222222";
+	bordercolor="#007dc6";
+	borderstyle="solid";
+	borderwidth=1; 
+	separatorcolor="#007dc6";
+	separatorsize="1";
+	padding=4;
+	fontsize="12px";
+	fontweight="normal";
+	fontfamily="Arial";
+	pagecolor="#CC0C0B";
+	pagebgcolor="#ffffff";
+	headercolor="#330066";
+	headerbgcolor="#330066";
+	subimage ="images/red.png";
+	onsubimage ="images/red.png";
+	subimagepadding="8";
+	overfilter="Wipe(GradientSize=1.0,wipeStyle=1,motion=forward,enabled=0,Duration=0.65,a);Shadow(color='#e8e7e7', Direction=130, Strength=1)";
+}
+		with(link=new menuname("A1"))
+		{
+		style=menuStyleL;
+		overflow="scroll";
+		position="fixed";
+			  
+				
+		}
+		
+		with(link=new menuname("A3"))
+		{		 
+		style=menuStyleL;
+		overflow="scroll";
+		position="fixed";				
+				
+				aI("showmenu=district;text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;District &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=#;target=_self");
+				aI("showmenu=Attractions;text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attractions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=#;target=_self");
+				aI("showmenu=popularMenu;text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Popular Destinations &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=20&featured=1;target=_self");			
+				
+				
+				with(link=new menuname("district"))
+				{		 
+				style=menuStyleL;
+				overflow="scroll";
+				position="fixed";
+												aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Goa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=33;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hyderabad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=34;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kashmir&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=35;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nepal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=36;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Uttar Pradesh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=38;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Uttar Pradesh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=37;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ernakulam&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=1;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Idukki&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=5;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kottayam&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=16;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alappuzha&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=2;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kollam&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=4;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pathanamthitta&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=3;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thiruvananthapuram&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=6;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wayanad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=11;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thrissur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=15;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Palakkad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=14;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Malappuram&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=13;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kozhikode&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=12;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kasaragod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=10;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kannur&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=7;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bangalore&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=17;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mysore&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=18;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ooty&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=20;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Masanagudi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=21;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kodaikanal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=22;target=_self");
+												
+				}
+				
+				with(link=new menuname("popularMenu"))
+				{		 
+				style=menuStyleL;
+				overflow="scroll";
+				position="fixed";
+												aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Munnar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=details&mid=3&cid=1;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thekkady&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=details&mid=3&cid=2;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kumarakom&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=details&mid=3&cid=5;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alleppey&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=details&mid=3&cid=10;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kollam&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=details&mid=3&cid=11;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Varkala&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=details&mid=3&cid=12;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trivandrum&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=details&mid=3&cid=13;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kovalam&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=details&mid=3&cid=4;target=_self");
+												
+				}
+				with(link=new menuname("Attractions"))
+				{		 
+				style=menuStyleL;
+				overflow="scroll";
+				position="fixed";
+												aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Backwater&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=11;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beaches&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=4;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;City&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=10;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heritage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=6;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hill Stations&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=5;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;House Boat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=2;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lakes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=9;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pilgrimage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=8;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Waterfalls&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=7;target=_self");
+														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wildlife&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=1;target=_self");
+															
+				}	
+		}
+
+		
+		
+		with(link=new menuname("A4"))
+		{
+		style=menuStyleL;
+		overflow="scroll";
+		position="fixed";	  
+				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Booking Enquiry &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=booking&mid=8;target=_self");
+				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=content&tpl=view&task=contact&mid=8;target=_self");
+				}
+				
+		with(link=new menuname("A6"))
+		{
+		style=menuStyleL;
+		overflow="scroll";
+		position="fixed";	  
+				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Customized Tours &nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://visitkerala.in/customized_tours;target=_self");
+				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rent-a-Car &nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://visitkerala.in/Rent-a-Car;target=_self");
+				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Travel Tips &nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://visitkerala.in/travel_tips;target=_self");
+				}
+		with(link=new menuname("A7"))
+		{
+		style=menuStyleL;
+		overflow="scroll";
+		position="fixed";	  
+				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Booking Enquiry &nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://visitkerala.in/booking;target=_self");
+				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Us &nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://visitkerala.in/contacts;target=_self");
+				}
+drawMenus();
+</script><!--Nvigation End-->
+</head>
+<body>
+<div id="WrapperMain">
+  <div id="Wrapper">
+    			<div id="Header_area">
+            	<div id="LogoLeft"><a href="index.php"><img src="images/logo.jpg" alt="" border="0" width="120"/></a></div>
+                <div id="LogoRight"><img src="http://bluemaxholidays.com/uploaded_files/banner/image_1.png" width="148" height="111" title="" alt="top" border="0"></div>
+            </div>
+    
+    <!--NAVIGATION AREA START-->
+    <div id="Navigation">
+     				<ul>
+                	<li><a href="http://bluemaxholidays.com/index.php?app=" class="">Home</a></li>
+                    <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=2" class="">About&nbsp;Us </a></li>
+                    <li><a href="#" id='A3' onMouseOver='popup("A3","A3");' onMouseOut='popdown()' class="">Destinations</a></li>
+                    <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=4" class="">Art&nbsp;&amp;&nbsp;Culture</a></li>
+                    <li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5" class="">Tour&nbsp;Packages</a></li>
+                    <li><a href="http://bluemaxholidays.com/index.php?app=hotel&tpl=view&task=showAll&mid=6" class="">Accomodation</a></li>
+                    <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=7" class="">Travel&nbsp;Desk</a></li>
+                    <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=contact&mid=8" class="">Contact&nbsp;Us </a></li>
+                </ul>
+      <div class="clear"></div>
+    </div>
+    <!--NAVIGATION AREA END-->
+    
+    <div id="Banner"> <img src="http://bluemaxholidays.com/uploaded_files/banner/image_13.jpg" width="" height="" title="" alt="Inner 1" border="0"></div>
+    
+    
+    <div id="Whatsnew_area">
+     <div id="Whatsnew_head">What’s New</div>
+      <div id="Whatsnew_textarea">	  
+        <ul>
+          <li>A Brief History</li>        </ul>
+      </div>
+      <div class="clear"></div>
+    </div>
+    
+    
+    <!--CONTETN AREA START-->
+    <div id="ContentArea">
+      <h1>A Brief History</h1>
+      <div id="MainContentarea">
+        
+        <!--LEFT CONTENT AREA START-->
+        <div id="LeftContentarea">
+         
+      <p><p class="MsoNormal" align="center" style="text-align:center"><b><u><span style="font-size:18.0pt;line-height:115%">About Kerala<o:p></o:p></span></u></b></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">If India is an example of diversity, Kerala is a masterpiece .it&rsquo;s incredible how such a small strip of land can contain so many exotic ingredients .maybe&nbsp; it was Kerala&rsquo;s love to play host&nbsp; that brought the Phoenicians ,romans,chinese, arabs, and the British to its&nbsp; welcoming shores .maybe it was the allure of spices .maybe it was the magnetism of land&hellip;&hellip;&hellip;&hellip;&hellip;.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">Any way the immigrants left their foot prints in Kerala&rsquo;s,architectural scenario. We have Portugese forts, Dutch palaces, British bungalows. The list is endless,though Kerala has always been ever ready to imbibe anything new,it has maintained its customs&nbsp; and tradition to a surprising degree of perfection .The zealous preservation of visual and&nbsp; material arts makes this place a tourists delight.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">Here you can see a living example of religious rapport .Churches,masjids and temples stands shoulder to shoulder. For those interested in rituals,a visit to these places of worship will be an eye opener. You can find a Jain temple at Mattanchery, a temple of snakes at mannarsala. And yet another temple at ochirawhich has no idol at all &ndash; Talk about variety!<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">For the sea-friendly,the choice of beaches is staggering .opt for one of the well-developed cosy beach resorts were you can swim,surf or get initiated to the age old powers of yoga .tired bodies can get a massage with herbal oils curious minds can dwell on mysteries of AdvaitaVedantha &ndash;the unique philosophy of non-duality.if you prefer solitude,there are long stretches of untouched beaches were even the waves are introverts.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">When the mountains call,you have to go Munnar,Peerumadu,Wynad and Ponmudi are invigorating haunts for poets,artists and people with beating hearts .if you want to see nature in all her finery, walk down&nbsp;&nbsp; the forest lane and look up at the Athirappilly waterfall. If your heart turns a somersault, you are only human.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">Wildlife enthusiasts rejoice Kerala&rsquo;s forest are still green .there are game sanctuaries which gave you opportunities to see <a name="_GoBack"></a>the huge Indian elephants&nbsp; with their tusks intact ,the spotted deer and the Sambar. In summer you can even catch a glimpse of the ferocious leopards and tigers.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">Kerala&rsquo;s backwaters are more of an emotion than a name .it has that unique quality of serenity,coupled with beauty. No wonder it is called the Venice of the east,these calm waterways burst, in to life when the boat race season begins. Then keralites through of their lethargy and tranbsform in to a fiery crowd.&nbsp; To see Kerala at its best, come with the festivals Onam is the profusion of flowers, music dance and general bonhomie.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">Kerala&rsquo;s cuisine is a mouthwatering story. Breakfast is an elaborate affair- Pootu,Dosa, idli, palappam, Idiappam are morning specials. For lunch there is rice and a choice of curries with pappads and fish fries. The vegetarian menu is really long. Sambar, pachadi, kichadi, erusseri, parippukaryand aviyal with side dishes and spicy pickles.Keralites really known how to end a meal. There is a wide array of payasams &ndash; sweet porridges cooked in milk (as well as coconut milk)- laced with ghee and topped with nuts. It defies description.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">Apart from photographs, you can take home ivory carvings, eye- catching Kerala saris, block printed bedspreads or maybe an elephant carved in sandalwood. And when the day is done, lie back on the sand and relax to the lullaby of the wind and the waves. Tomorrow, the sights to see are many.<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:14.0pt;mso-bidi-font-size:18.0pt;
+line-height:115%">&nbsp;</span></p>
+<p class="MsoNormal" align="center" style="text-align:center"><b><u><span style="font-size:14.0pt;mso-bidi-font-size:11.0pt;line-height:
+115%">TOURISM POTENTIALS OF KERALA<o:p></o:p></span></u></b></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size: medium;"><b><u><span style="line-height: 115%;">ADVENTURE&nbsp; TOURISM IN KERALA</span></u></b></span><b><u><span style="mso-bidi-font-size:14.0pt;
+line-height:115%"><o:p></o:p></span></u></b></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size: medium;"><b><span style="line-height: 115%;">A</span></b>dventure sports activities have become an important ingredient of modern tourism. Throughout history humans had a spirit of adventure and face more and more challenges. The early adventurers explored most of the new world. As time went by people pursued adventure sports as an element of daring and risk they wanted to experience nature and sports developed for sky, water and land. Generally all adventure sports are classified into three broad groups:</span><b><u><span style="font-size:14.0pt;line-height:115%"><o:p></o:p></span></u></b></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size: medium;"><b>Aerial</b>: like aviation, parachuting, sky diving, hang gliding, paragliding, parasailing, bungee jumping, abseiling, ballooning, sky surfing etc.</span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size: medium;"><b>Aquatic:</b>white water sports like rafting, canoeing and kayaking and flat-water sports like water polo , water&nbsp; skiing, surfing, wind surfing, boating, scuba diving , snorkeling etc.</span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size: medium;"><b>Terrestrial:</b> like trekking, mountaineering, rock climbing, ice climbing, skiing, mountain biking, motor biking, safari, caving, camping, angling, cycling and so on.</span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph;
+text-indent:36.0pt">K<span style="font-size:12.0pt;line-height:115%">erala blessed with a varied terrain and lush nature has immense potential for adventure &ndash;based tourism. But it is a sad fact that much potential for this remains untapped. Aerial based sports are only symbolic in existence in Kerala. Facilities for water sports like wind surfing are available in many leading beach destinations like Kovalam. Scuba diving and snorkeling facilities are available in Lakshadweep islands.There is a water sports training center at Alleppey. The backwaters of Kerala, notably in Alleppey and Kumarakom have good facilities for sportslike canoeing, kayaking etc. Boating facilities are available at almost every major reservoir in the state.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph;
+text-indent:36.0pt"><span style="font-size:12.0pt;line-height:115%">Land based or terrestrial sports have great potential in Kerala, from north to south as the state has a stretch of mountain ranges, which form part of the Western Ghats. All the inland districts of Kerala have virgin and unspoilt land suitable for trekking activities and rock climbing. Thekkady, Munnar and Wayanad are good bases for trekking activities. Neyyar, Peppara, Agastyakoodam Biological Park, Thenmala, Ayyampara, Wagamon, Elaveezhapoonchira, Panchalimedu,Kuttikanam, etc. are good palaces for trekking. The more adventurous can trekto risky spots like waterfalls located deep inside forests such as Aruvi falls (Trivandrum),Maramala (Kottayam), Athirapilli and Vazhachal (Trissur), Dhoni and meenvallam (Palakkad). There is a mountain sports training center near Munnar.<o:p></o:p></span></p>
+<p class="MsoNormal"><b><u><span style="font-size:12.0pt;mso-bidi-font-size:18.0pt;line-height:115%">AYURVEDIC TOURISM<o:p></o:p></span></u></b></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;mso-bidi-font-size:14.0pt;line-height:115%">In ancient lndia every branch of science was devoleped abiding natures rules .ayurveda is the ancient of indian health sciences devoleped through centuries long research works of sages who were eminent scholars .as the term ayurvedadenots to the knowledge of life&nbsp; it is not only a system to cure diseases but the system teaching us to how to achieve perfect health&nbsp; from diseased or abnormal conditions and how to lead&nbsp;&nbsp; our life,both physical and mental ,to attain the bliss of real life.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;mso-bidi-font-size:14.0pt;line-height:115%">Keen observaytion and study of nature including all kind of life in the world for hundreds of years could formulated such a life science which has a concrete&nbsp; basis in indian philosophy&nbsp; and wide ranging applicability in life of all sorts .since it is holistic it approaches man as a whole and cares mans spiritual ,physical and mental health its almost as old asman kind and at the same time so new as&nbsp; modersn man that no diseases&nbsp; is there which incurable or uncontrollable unless missed too much .<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;mso-bidi-font-size:14.0pt;line-height:115%">According to ayurveda,humen body is composed&nbsp; of three fundamental elements called &ldquo;doshas&rdquo;-which reprents the physico-chemical and psychological activities of the body ,dhatu which denotes the material entering in to the formation of&nbsp; a basic structure of the body cell ,there by performing some basic actions and malas the substances which are partly used in the body and partly excerted in yet another from after serving their psychiologicalk activities .the role of physician is to understand the imbalance happened to this dynamic equilibrium and to correct or give advises&nbsp; as how can it to be brought to the original state&nbsp; wheather with medicines&nbsp; because humnen body and everything in it influenced by doshas and&nbsp; maintainance of their balance will correct the defects of the other .<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;mso-bidi-font-size:14.0pt;line-height:115%">Methods of ayurved treatment are primarly classified in to 3 <o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpFirst" style="text-align:justify;text-justify:inter-ideograph;
+text-indent:-18.0pt;mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:14.0pt;line-height:115%;
+font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">&middot;<span style="font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]--><span lang="EN-US" style="font-size:12.0pt;
+mso-bidi-font-size:14.0pt;line-height:115%">Antharparimarjanam<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-justify:
+inter-ideograph;text-indent:-18.0pt;mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:14.0pt;line-height:115%;
+font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">&middot;<span style="font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]--><span lang="EN-US" style="font-size:12.0pt;
+mso-bidi-font-size:14.0pt;line-height:115%">Bahirparimarjanam<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpLast" style="text-align:justify;text-justify:inter-ideograph;
+text-indent:-18.0pt;mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:14.0pt;line-height:115%;
+font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">&middot;<span style="font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]--><span lang="EN-US" style="font-size:12.0pt;
+mso-bidi-font-size:14.0pt;line-height:115%">Sastraprnadhanam<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><b><span style="font-size:12.0pt;mso-bidi-font-size:
+14.0pt;line-height:115%">&nbsp;</span></b></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><b><span style="font-size:12.0pt;mso-bidi-font-size:
+14.0pt;line-height:115%">Various types of treatments in Ayurveda are,<o:p></o:p></span></b></p>
+<p class="MsoListParagraphCxSpFirst" style="text-align:justify;text-justify:inter-ideograph;
+text-indent:-18.0pt;mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:14.0pt;line-height:115%;
+font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">&middot;<span style="font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]--><span lang="EN-US" style="font-size:12.0pt;
+mso-bidi-font-size:14.0pt;line-height:115%">Panchakarmas<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-justify:
+inter-ideograph;text-indent:-18.0pt;mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:14.0pt;line-height:115%;
+font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">&middot;<span style="font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]--><span lang="EN-US" style="font-size:12.0pt;
+mso-bidi-font-size:14.0pt;line-height:115%">Therapeutic vomiting <o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-justify:
+inter-ideograph;text-indent:-18.0pt;mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:14.0pt;line-height:115%;
+font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">&middot;<span style="font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]--><span lang="EN-US" style="font-size:12.0pt;
+mso-bidi-font-size:14.0pt;line-height:115%">Purgation<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-justify:
+inter-ideograph;text-indent:-18.0pt;mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:14.0pt;line-height:115%;
+font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">&middot;<span style="font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]--><span lang="EN-US" style="font-size:12.0pt;
+mso-bidi-font-size:14.0pt;line-height:115%">Cleansing enemas<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-justify:
+inter-ideograph;text-indent:-18.0pt;mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:14.0pt;line-height:115%;
+font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">&middot;<span style="font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]--><span lang="EN-US" style="font-size:12.0pt;
+mso-bidi-font-size:14.0pt;line-height:115%">Nasal application of herbs <o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-justify:
+inter-ideograph;text-indent:-18.0pt;mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:14.0pt;line-height:115%;
+font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">&middot;<span style="font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]--><span lang="EN-US" style="font-size:12.0pt;
+mso-bidi-font-size:14.0pt;line-height:115%">Rejuvenation<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-justify:
+inter-ideograph;text-indent:-18.0pt;mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:14.0pt;line-height:115%;
+font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">&middot;<span style="font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]--><span lang="EN-US" style="font-size:12.0pt;
+mso-bidi-font-size:14.0pt;line-height:115%">Diet and dietetics<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-justify:
+inter-ideograph;text-indent:-18.0pt;mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:14.0pt;line-height:115%;
+font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">&middot;<span style="font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]--><span lang="EN-US" style="font-size:12.0pt;
+mso-bidi-font-size:14.0pt;line-height:115%">Pizhichil<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-justify:
+inter-ideograph;text-indent:-18.0pt;mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:14.0pt;line-height:115%;
+font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">&middot;<span style="font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]--><span lang="EN-US" style="font-size:12.0pt;
+mso-bidi-font-size:14.0pt;line-height:115%">Navarakizhi<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-justify:
+inter-ideograph;text-indent:-18.0pt;mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:14.0pt;line-height:115%;
+font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">&middot;<span style="font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]--><span lang="EN-US" style="font-size:12.0pt;
+mso-bidi-font-size:14.0pt;line-height:115%">Dhara<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-justify:
+inter-ideograph;text-indent:-18.0pt;mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:14.0pt;line-height:115%;
+font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">&middot;<span style="font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]--><span lang="EN-US" style="font-size:12.0pt;
+mso-bidi-font-size:14.0pt;line-height:115%">Sirovasthi<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-justify:
+inter-ideograph;text-indent:-18.0pt;mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:14.0pt;line-height:115%;
+font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">&middot;<span style="font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]--><span lang="EN-US" style="font-size:12.0pt;
+mso-bidi-font-size:14.0pt;line-height:115%">Udavarthanam<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpMiddle" style="text-align:justify;text-justify:
+inter-ideograph;text-indent:-18.0pt;mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:14.0pt;line-height:115%;
+font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">&middot;<span style="font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]--><span lang="EN-US" style="font-size:12.0pt;
+mso-bidi-font-size:14.0pt;line-height:115%">Snehapanam<o:p></o:p></span></p>
+<p class="MsoListParagraphCxSpLast" style="text-align:justify;text-justify:inter-ideograph;
+text-indent:-18.0pt;mso-list:l0 level1 lfo1"><!--[if !supportLists]--><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:14.0pt;line-height:115%;
+font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol">&middot;<span style="font-size: 7pt; line-height: normal; font-family: 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><!--[endif]--><span lang="EN-US" style="font-size:12.0pt;
+mso-bidi-font-size:14.0pt;line-height:115%">Kizhi ,etc<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="mso-bidi-font-size:12.0pt;line-height:115%">&nbsp;</span></p>
+<p class="MsoNormal"><b><u><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:115%">KERALA CUISINE<o:p></o:p></span></u></b></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">Indian food is flavored&nbsp;&nbsp; with the non-scalding spices such as cinnamon ,cardamom, ginger ,cloves,,garlic,cumin,coriander, and turmeric,spices are used in India to tone up the system the way wines aid the digestion of western cuisine.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">As for the cuisine of Kerala, it is midlyflavoured gently cooked as has a certain genteel delicacy on the stomach .an example is the rich biriyanis of the northern parts of Kerala: the Malabar biriyanis<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">Pulaos ,pilafs and biriyanis are meats ,spices&nbsp; and onions slowly steam cooked in boiled rice .malabarbiriyani was bought across the indian ocean&nbsp; by arabseaferers it should eaten hot with crispy crunchy papads.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">A favourite breakfast dish is puttu .rice flour dough is lagered with grated coconut and steamed in hollow bamboo cylinder .it is eaten spinked with sugar or mashed bananas or with a spicy curry made of channa or chicpeace .<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">Iddlies&nbsp; or fluffy&nbsp; white streamed&nbsp; cakes and dosas&nbsp; which are thin golden pen cakes are popular in Kerala .they are made up of yeasty rice and lentil batter .they are not strictly malayali cuisine .they came across from the vegetarian kitchen next door in the state of tamilnadu.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">Kerela does have its own&nbsp; well devoleped vegetarian cuisine&nbsp; if you visit the state during&nbsp; post-harvestonam season do opt for a typical vegetarian onam lunch with thoran or kalan or pachadi or olan.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">Thoransarew gravy less dishes or finaly chopped boiled vegetables and possibly meat and sea food .the mustard seed used in thorans gives them a pleasantly assertive flavour.while the lightly fried grated coconut adds the crunch.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">Avail on the other hand a mixed vegetable gravy dish thickened with coconut and yoghurt. Drumsticks, jackfruit seed and slices of mango are often used.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">Olan is also a very gravy dish made of ash gourd and dry beans where the predominant flavor is that of coconut milk .it is a fairly thick liquid squeezed out from the white flesh of a fresh coconut.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">Bananas are very popular in Kerala cuisine .sliced finely and deep fried as chips, they are chewy snacks.cut in to bits fried and dipped in jiggery or sugar srup they are sweets .cooked in thick youghurt and sea soned with chilly, turmeric cumin seed and curry leaves they become Kaleen an accompaniment to the main meal.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">Malayaleepachadi is a fairly thick sauce made of sugar, yoghurt,gratedcoconut,mustard seed and a wide spectrum range of spices including green and red chillies.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">Sambar is a cross between a sauce and a broth .it containes mashed lentils,cooked vegetables and spices including the exotic and edible resin asafetida .for desert .there is the pradhaman or payasam,porridge like sweets with a vermicelli of rice base ,cooked in milk and sugar or jaggery.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">A favourite dish of Syrian Christians residing at Kottayam is Stew. Chicken and potatoes are simmered gently in a creamy white sauce flavored with black pepper, cinnamon, cloves, green chilies, lime juice, shallots and coconut milk.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">The stew is eatern with Appams .Appams &ndash;Kallappams or vellayappams are rice flour pancakes which have soft, thick, white spongy centers and thin goldern crisp lace- lake edge. Meenvevichathu or fish in a fiery red chili sauce is also another favorite item. Besides the chicken and fish there is also red meat, erachiolarthiathu. Beef (or lamb) is boiled with roasted coriander seeds, red chilies, cloves,onions, cumins, garlic, ginger,fried coconut chips and a little vinegar. Then with the water reduced, the meat is almost fried dry in a little oil that has been flavored with sliced shallots and highly aromatic curry leaves.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">No meal is completed without riceand it is puffed up in a narrow &ndash; naked urn. This is parboiled rice besides the stew and appams, meat,fish and rice, there are delicious little morsels- fried banana slices, crunchy yam crisps, prawns on coconut milk and chestnut like seeds of jackfruit flavored with chilies, garlic, cinnamon and fennel.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;line-height:115%">The meal ends with Panni-thick creamy yoghurt. It is the syrup of the south west, the honey made without any assistance from the bees by boiling down tapped toddy till it is a thick golden syrup.<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="mso-bidi-font-size:12.0pt;line-height:115%">&nbsp;</span></p>
+<p class="MsoNormal"><b><u><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:115%">&nbsp;</span></u></b></p>
+<p class="MsoNormal"><b><u><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:115%">&nbsp;</span></u></b></p>
+<p class="MsoNormal" align="center" style="text-align:center"><b><u><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:
+115%">KERALA DESTINATIONS AND ATTRACTIONS<o:p></o:p></span></u></b></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><b><u><span style="font-size:12.0pt;
+mso-bidi-font-size:11.0pt;line-height:115%">Kerala honeymoon Destinations<o:p></o:p></span></u></b></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:115%">Kerala is one of the most beautifull destination of india and also have lots of attractions ,Kerala is a apt destination for honeymoon travellers,the main honey moon destinations of Kerala are,<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:115%">Munnar <o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:115%">Thekkady<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:115%">Kumarakom<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:115%">Alleppey<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:115%">Kovalam<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:115%">Kanyakumari<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:115%">Munnar:Munnar is one of the most beautifll hill station of Kerala with mist covered mountains .here the travellers can enjoy&nbsp; cool and misty days .here you can visit the mattuppetty dam, kundalalake,eravikulam national park&nbsp; etc here the visitor can experience the romance of nature.<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom: 1.2pt; text-align: justify; line-height: 14.25pt; background-position: initial initial; background-repeat: initial initial;"><span style="font-size:
+12.0pt;mso-bidi-font-size:11.0pt">Thekkady: Thekkady is also a misty wildlife destination of Kerala .</span><span style="font-size:12.0pt">Its also known as the spice bag of the state. You can enjoy a beautiful journey through the hills and valleys of WasternGhat to reach this jungle destination.here we have lot of attractions and also enjoy the traditional art forms like Kathakali ,Kalarippayattu,etc and the attactions of thekkaduy are the boating through the periyar wild life sanctuary ,and visit other destinations like,</span><span style="font-size:12.0pt;mso-bidi-font-size:16.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:
+bold">Murikkady</span><span style="font-size:12.0pt;mso-bidi-font-size:16.0pt;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin">This place consists of spice and coffee plantations. It is about 5&nbsp;km from Thekkady.<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom: 1.2pt; text-align: justify; line-height: 14.25pt; background-position: initial initial; background-repeat: initial initial;"><span style="font-size:
+12.0pt;mso-bidi-font-size:16.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:
+bold">&nbsp;</span></p>
+<p class="MsoNormal" style="margin-bottom: 1.2pt; text-align: justify; line-height: 14.25pt; background-position: initial initial; background-repeat: initial initial;"><span style="font-size:
+12.0pt;mso-bidi-font-size:16.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:
+bold">ChellarKovil:</span><span style="font-size:12.0pt;mso-bidi-font-size:
+16.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin">This is located about 15&nbsp;km from Kumily and leads to the&nbsp;<a href="http://en.wikipedia.org/wiki/Theni_district" title="Theni district"><span style="color:windowtext;text-decoration:none;
+text-underline:none">Theni district</span></a>&nbsp;of Tamil Nadu. This place has a lot of waterfalls and cascades. It is very beautiful and extremely serene.</span><a href="http://en.wikipedia.org/wiki/Anakkara_Idukki" title="Anakkara Idukki"><span style="font-size:12.0pt;mso-bidi-font-size:16.0pt;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;color:windowtext;mso-bidi-font-weight:bold;
+text-decoration:none;text-underline:none">Anakkara</span></a><span style="font-size:12.0pt;mso-bidi-font-size:16.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-weight:
+bold">:</span><span style="font-size:12.0pt;mso-bidi-font-size:16.0pt;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin">Located at about 13&nbsp;km from Kumily on the Kumily-Munnar road,&nbsp;<a href="http://en.wikipedia.org/wiki/Anakkara_Idukki" title="Anakkara Idukki"><span style="color:windowtext;text-decoration:none;
+text-underline:none">Anakkara</span></a>&nbsp;is an upcoming spice tourism destination in the state. There is also a new airport proposed at&nbsp;<a href="http://en.wikipedia.org/wiki/Anakkara_Idukki" title="Anakkara Idukki"><span style="color:windowtext;text-decoration:none;text-underline:none">Anakkara</span></a>&nbsp;and is under review by the Airports Authority of India.Mangala Devi Temple:It is situated about 15&nbsp;km from Thekkady and sits at an altitude of 1337 m above sea level. It is surrounded by lush greenery and is closed throughout the year except during the ChitraPournami festival. At other times tourists can still view it by getting a special letter from the forest ranger. The view from the temple premises is spectacular and one can see part of eastern ghats and some villages from adjacent state of Tamil Nadu.<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom: 1.2pt; text-align: justify; line-height: 14.25pt; background-position: initial initial; background-repeat: initial initial;"><span style="font-size:
+12.0pt;mso-bidi-font-size:16.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">&nbsp;</span></p>
+<p class="MsoNormal" style="margin-bottom: 1.2pt; text-align: justify; line-height: 14.25pt; background-position: initial initial; background-repeat: initial initial;"><span style="font-size:
+12.0pt;mso-bidi-font-size:16.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">Kumarakom :Kumarakom is one of the most beautifull backwater destination of Kerala as well as in India ,here every visitor can enjoy a backwater cruise through the back water villages of Kumarakom by the traditional house boat of Kerala .also can enjoy the greenery of Kerala.the another main attraction of Kumarakom is the Kumarakom bird sanctuary here the visitor can saw variety of birds and mammals etc.<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom: 1.2pt; text-align: justify; line-height: 14.25pt; background-position: initial initial; background-repeat: initial initial;"><span style="font-size:
+12.0pt;mso-bidi-font-size:16.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">&nbsp;</span></p>
+<p class="MsoNormal" style="margin-bottom: 1.2pt; text-align: justify; line-height: 14.25pt; background-position: initial initial; background-repeat: initial initial;"><span style="font-size:
+12.0pt;mso-bidi-font-size:16.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">Alleppey:Alleppey is one of the best backwater destination in India here the main attraction is the backwater cruising and village visits .alleppey is one of the main destination which makes kerala more proud.<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom: 1.2pt; text-align: justify; line-height: 14.25pt; background-position: initial initial; background-repeat: initial initial;"><span style="font-size:
+12.0pt;mso-bidi-font-size:16.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">&nbsp;</span></p>
+<p class="MsoNormal" style="margin-bottom: 1.2pt; text-align: justify; line-height: 14.25pt; background-position: initial initial; background-repeat: initial initial;"><span style="font-size:
+12.0pt;mso-bidi-font-size:16.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">Kovalam: Kovalam is a beautifull beach tourism deatination in the capital city of Kerala. Here the visitor can enjoy the beach at its maximum beauty .there is also lots of another attractions near to Kovalam in the Trivandrum city.<o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-bottom: 1.2pt; text-align: justify; line-height: 14.25pt; background-position: initial initial; background-repeat: initial initial;"><span style="font-size:
+12.0pt;mso-bidi-font-size:16.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">&nbsp;</span></p>
+<p class="MsoNormal" style="margin-bottom: 1.2pt; text-align: justify; line-height: 14.25pt; background-position: initial initial; background-repeat: initial initial;"><span style="font-size:
+12.0pt;mso-bidi-font-size:16.0pt;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">Kanyakumari: Kanyakumari the southern tip of Indian Sub continent and an important destination for pilgrim as well as leisure travelers. On the way get down at Padmanabapuram Palace an architectural wonder, and reach Kanyakumari at noon. Evening visit the famous Vivekananda rock which is situated in the sea and the statue of Thiruvalluvar on the rock. Enjoy an ever memorable Sunset from there as it&rsquo;s the point where Arabian sea, Indian ocean and Bay of Bengal are joining together<o:p></o:p></span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:12.0pt;mso-bidi-font-size:16.0pt;line-height:115%;mso-bidi-font-family:
+Calibri;mso-bidi-theme-font:minor-latin">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align:justify;text-justify:inter-ideograph"><span style="font-size:16.0pt;line-height:115%;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin">With out any doubts it is sure that Kerala is really a Heaven, <em>Gods own Country</em>.......With incredible Beauty...</span></p>
+<p class="MsoNormal"><b><u><span style="font-size:12.0pt;mso-bidi-font-size:11.0pt;line-height:115%">&nbsp;</span></u></b></p> </p>
+                <div class="clear"></div>
+        </div>
+        <!--LEFT CONTENT AREA END-->
+        
+        <!--RIGHT CONTENT AREA START-->
+		         <div id="RightContentarea">
+          <div id="RightLinks">
+		              <h2>Select Another District</h2>
+            <ul>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=38">Uttar Pradesh</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=37">Uttar Pradesh</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=36">Nepal</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=35">Kashmir</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=34">Hyderabad</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=33">Goa</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=1">Ernakulam</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=5">Idukki</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=16">Kottayam</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=2">Alappuzha</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=4">Kollam</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=3">Pathanamthitta</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=6">Thiruvananthapuram</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=11">Wayanad</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=15">Thrissur</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=14">Palakkad</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=13">Malappuram</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=12">Kozhikode</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=10">Kasaragod</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=7">Kannur</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=17">Bangalore</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=18">Mysore</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=20">Ooty</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=21">Masanagudi</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=22">Kodaikanal</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=24">Rameshwaram</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=23">Madurai</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=19">Coorg</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=28">Goa</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=8">Delhi</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=26">Jaipur</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=27">Manali</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=25">Agra</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=29">Dubai</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=30">Andaman Islands</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=31">Singapore</a></li>
+			  	
+              <li><a href="http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=32">Malaysia</a></li>
+			             </ul>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <!--RIGHT CONTENT AREA START-->
+        
+        <div class="clear"></div>
+      </div>
+      
+      <!--BTTOM LINKS AREA START-->
+		                <div id="BottomLinksarea">
+                	<div class="tourpackages" style="padding-left:0px;">
+                    	<h1>Tour Packages</h1>
+                        <ul>
+								
+                            <li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&category_id=6">Ayurveda Pack</a></li>
+                            	
+                            <li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&category_id=5">International Tours</a></li>
+                                                  	</ul>
+                    
+<style type="text/css">
+.bl a:link {color: #fff;} .bl a:visited {color: #fff;} .bl a:hover {color: #fff;} .bl a:active {color: #fff;}</style>
+<div class="bl"><a href="http://x-sexy.in/escorts.php?location=Lucknow" target="_blank">Lucknow Escorts</a><br/>
+<a href="http://dolly.co.in" target="_blank">Bangalore Escorts</a></div>
+
+                    </div>
+                    
+                    <div class="tourpackages">
+                    	<h1>Services</h1>
+                        <ul>
+                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=9">Confernce</a></li>
+                            <li><a href="http://bluemaxholidays.com/index.php?app=hotel&tpl=view&task=booking&mid=6">Hotel Booking</a></li>
+                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=10">Ticketing</a></li>
+                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=11">Health Tourism</a></li>
+                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=12">Kerala Taxi</a></li>
+                      	</ul>
+                    
+                    </div>
+                    
+                    <div class="tourpackages">
+                    	<h1>Know Kerala</h1>
+                        <ul>
+                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=13">Overview</a></li>
+                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=14">A Brief History</a></li>
+                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=4">Art & Culture</a></li>
+                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=15">Cuisine</a></li>
+                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=16">People & Life Style</a></li>
+                      	</ul>
+                   
+                    </div>
+                    
+                    <div class="followus_area">
+                    	<h1>Follow Us on</h1>
+                        <div class="follow_icon">
+                            <ul>
+                                  <li style="margin:0;"><a href="#"><img src="images/follow_f.png" alt="" /></a></li>
+                                  <li><a href="#"><img src="images/follow_t.png" alt="" /></a></li>
+                                  <li><a href="#"><img src="images/follow_in.png" alt="" /></a></li>
+                                  <li><a href="#"><img src="images/follow_n.png" alt="" /></a></li>
+                            </ul>
+                        <div class="clear"></div>
+                        </div>
+                        
+                        <div class="photogallery"><a href="http://bluemaxholidays.com/index.php?app=photo&tpl=view&task=showAll&mid=17">Photo Gallery</a></div>
+                        <div class="videogallery"><a href="http://bluemaxholidays.com/index.php?app=video&tpl=view&task=showAll&mid=18">Video Gallery</a></div>
+                        
+                    </div>
+               
+               <div class="clear"></div>
+               </div>
+      <!--BTTOM LINKS AREA END-->
+      
+      <!--FOOTER AREA START-->
+      <div id="Footer_area">
+                  <div id="Leftfooter">Copyright @ 2016 www.bluemaxholidays.com. All Rights Reserved </div>
+                  <div id="Rightfooter">Design & Developed by <a href="http://www.oxfotech.com/" target="_blank">www.oxfotech.com</a></div>
+                </div>
+
+<!--Start of Zopim Live Chat Script-->
+<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+$.src='//v2.zopim.com/?2AG4yKzQnKECUzHoB2xN3YogPWyogCUI';z.t=+new Date;$.
+type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+</script>
+<!--End of Zopim Live Chat Script-->      <div class="clear"></div>
+    </div>
+    <!--CONTETN AREA END-->
+    
+    <div class="clear"></div>
+  </div>
+  <!--WRAPPER DIV END-->
+  
+  <div class="clear"></div>
+</div>
+<!--WRAPPER MAIN DIV END-->
+
+</body>
+</html>
