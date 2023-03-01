@@ -22,7 +22,7 @@ with(menuStyleL=new mm_style()){
 	oncolor="#222222";
 	bordercolor="#007dc6";
 	borderstyle="solid";
-	borderwidth=1; 
+	borderwidth=1;
 	separatorcolor="#007dc6";
 	separatorsize="1";
 	padding=4;
@@ -43,23 +43,23 @@ with(menuStyleL=new mm_style()){
 		style=menuStyleL;
 		overflow="scroll";
 		position="fixed";
-			  
-				
+
+
 		}
-		
+
 		with(link=new menuname("A3"))
-		{		 
+		{
 		style=menuStyleL;
 		overflow="scroll";
-		position="fixed";				
-				
+		position="fixed";
+
 				aI("showmenu=district;text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;District &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=#;target=_self");
 				aI("showmenu=Attractions;text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Attractions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=#;target=_self");
-				aI("showmenu=popularMenu;text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Popular Destinations &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=20&featured=1;target=_self");			
-				
-				
+				aI("showmenu=popularMenu;text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Popular Destinations &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=20&featured=1;target=_self");
+
+
 				with(link=new menuname("district"))
-				{		 
+				{
 				style=menuStyleL;
 				overflow="scroll";
 				position="fixed";
@@ -88,11 +88,11 @@ with(menuStyleL=new mm_style()){
 														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ooty&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=20;target=_self");
 														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Masanagudi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=21;target=_self");
 														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kodaikanal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=showAll&mid=3&district_id=22;target=_self");
-												
+
 				}
-				
+
 				with(link=new menuname("popularMenu"))
-				{		 
+				{
 				style=menuStyleL;
 				overflow="scroll";
 				position="fixed";
@@ -104,10 +104,10 @@ with(menuStyleL=new mm_style()){
 														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Varkala&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=details&mid=3&cid=12;target=_self");
 														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trivandrum&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=details&mid=3&cid=13;target=_self");
 														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kovalam&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=details&mid=3&cid=4;target=_self");
-												
+
 				}
 				with(link=new menuname("Attractions"))
-				{		 
+				{
 				style=menuStyleL;
 				overflow="scroll";
 				position="fixed";
@@ -121,26 +121,26 @@ with(menuStyleL=new mm_style()){
 														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pilgrimage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=8;target=_self");
 														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Waterfalls&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=7;target=_self");
 														aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wildlife&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=destination&tpl=view&task=list&mid=3&attraction_id=1;target=_self");
-															
-				}	
+
+				}
 		}
 
-		
-		
+
+
 		with(link=new menuname("A4"))
 		{
 		style=menuStyleL;
 		overflow="scroll";
-		position="fixed";	  
+		position="fixed";
 				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Booking Enquiry &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=booking&mid=8;target=_self");
 				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=content&tpl=view&task=contact&mid=8;target=_self");
 				}
-				
+
 		with(link=new menuname("A6"))
 		{
 		style=menuStyleL;
 		overflow="scroll";
-		position="fixed";	  
+		position="fixed";
 				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Customized Tours &nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://visitkerala.in/customized_tours;target=_self");
 				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rent-a-Car &nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://visitkerala.in/Rent-a-Car;target=_self");
 				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Travel Tips &nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://visitkerala.in/travel_tips;target=_self");
@@ -149,7 +149,7 @@ with(menuStyleL=new mm_style()){
 		{
 		style=menuStyleL;
 		overflow="scroll";
-		position="fixed";	  
+		position="fixed";
 				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Booking Enquiry &nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://visitkerala.in/booking;target=_self");
 				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Us &nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://visitkerala.in/contacts;target=_self");
 				}
@@ -171,11 +171,11 @@ drawMenus();
 	<div id="WrapperMain">
     	<div id="Wrapper">
            			<div id="Header_area">
-            	<div id="LogoLeft"><a href="index.php"><img src="images/logo.jpg" alt="" border="0" width="120"/></a></div>
+            	<div id="LogoLeft"><a href="index.html"><img src="images/logo.jpg" alt="" border="0" width="120"/></a></div>
                 <div id="LogoRight"><img src="http://bluemaxholidays.com/uploaded_files/banner/image_1.png" width="148" height="111" title="" alt="top" border="0"></div>
             </div>
-            
-            
+
+
             <!--NAVIGATION AREA START-->
             <div id="Navigation">
             					<ul>
@@ -190,34 +190,34 @@ drawMenus();
                 </ul>
             <div class="clear"></div>
             </div>
-            
-            
+
+
             <!--NAVIGATION AREA END-->
-            
+
             <div id="slider-wrapper">
-            <div id="slider" class="nivoSlider"> 
-            					<img src="http://bluemaxholidays.com/uploaded_files/banner/image_5.jpg" width="974" height="334" title="" alt="hom3" border="0"><img src="http://bluemaxholidays.com/uploaded_files/banner/image_7.jpg" width="974" height="334" title="" alt="hom 4" border="0"><img src="http://bluemaxholidays.com/uploaded_files/banner/image_9.jpg" width="974" height="334" title="" alt="hom 2" border="0"><img src="http://bluemaxholidays.com/uploaded_files/banner/image_12.jpg" width="974" height="334" title="" alt="hom 5" border="0"><img src="http://bluemaxholidays.com/uploaded_files/banner/image_14.jpg" width="974" height="334" title="" alt="test2" border="0"><img src="http://bluemaxholidays.com/uploaded_files/banner/image_15.jpg" width="974" height="334" title="" alt="munnar" border="0">             
+            <div id="slider" class="nivoSlider">
+            					<img src="http://bluemaxholidays.com/uploaded_files/banner/image_5.jpg" width="974" height="334" title="" alt="hom3" border="0"><img src="http://bluemaxholidays.com/uploaded_files/banner/image_7.jpg" width="974" height="334" title="" alt="hom 4" border="0"><img src="http://bluemaxholidays.com/uploaded_files/banner/image_9.jpg" width="974" height="334" title="" alt="hom 2" border="0"><img src="http://bluemaxholidays.com/uploaded_files/banner/image_12.jpg" width="974" height="334" title="" alt="hom 5" border="0"><img src="http://bluemaxholidays.com/uploaded_files/banner/image_14.jpg" width="974" height="334" title="" alt="test2" border="0"><img src="http://bluemaxholidays.com/uploaded_files/banner/image_15.jpg" width="974" height="334" title="" alt="munnar" border="0">
            </div>
           </div>
-            
+
             <div id="Whatsnew_area">
             					<div id="Whatsnew_head">What’s New</div>
-                <div id="Whatsnew_textarea">					
+                <div id="Whatsnew_textarea">
                 <marquee scrollamount="3" direction="left" width="822">
 					&nbsp;&nbsp;<img src="images/bullet.png" valign="absbottom">&nbsp;&nbsp;<a href="1" style="color:#000000;text-decoration:none">Bluemax holidays has specialized tour packages for traveling along the length and breadth of India, with emphasis on tours to KERALA, 'God's own country'.</a>&nbsp;&nbsp;<img src="images/bullet.png" valign="absbottom">&nbsp;&nbsp;<a href="2" style="color:#000000;text-decoration:none">Bluemax also arranges tours to major destinations worldwide and specializes on destinations like Thailand, Malaysia, Singapore, Srilanka etc.</a>                </marquee>
                 </div>
-  
+
             <div class="clear"></div>
             </div>
-            
+
             <!--CONTETN AREA START-->
             <div id="ContentArea">
             	<h1>Holiday Packages</h1>
-                
+
                 <!--HOLIDAY PACKAGE AREA START-->
 				          <div id="HodidayPackagearea">
-                	
-					    
+
+
                     <div class="holiday_package" style="margin:0px;">
                     	<div class="holiday_photo"><img src="http://bluemaxholidays.com/uploaded_files/tour_category/image_7.jpg" width="" height="" title="" alt="Kerala honeymoon packages" border="0"></div>
                         <h2>Kerala honeymoon packages</h2>
@@ -228,10 +228,10 @@ drawMenus();
                                                            	<li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5&cid=59">4 NIGHTS 5 DAYS TOUR PACKAGES<span>04 Nights/05 Days</span></a></li>
                                                            </ul>
                         </div>
-                        <div class="viewall"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&cid=7&category_id=7">View all</a></div>                    
+                        <div class="viewall"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&cid=7&category_id=7">View all</a></div>
                     <div class="clear"></div>
-                  	</div>                  
-				 
+                  	</div>
+
                     <div class="holiday_package" style="margin:0px;padding-left:27px;">
                     	<div class="holiday_photo"><img src="http://bluemaxholidays.com/uploaded_files/tour_category/image_2.jpg" width="" height="" title="" alt="North Indian packages" border="0"></div>
                         <h2>North Indian packages</h2>
@@ -242,10 +242,10 @@ drawMenus();
                                                            	<li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5&cid=74">GOLDEN TRIANGLE  PACKAGE<span>05 Nights/06 Days</span></a></li>
                                                            </ul>
                         </div>
-                        <div class="viewall"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&cid=2&category_id=2">View all</a></div>                    
+                        <div class="viewall"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&cid=2&category_id=2">View all</a></div>
                     <div class="clear"></div>
-                  	</div>                  
-				 
+                  	</div>
+
                     <div class="holiday_package" style="margin:0px;padding-left:27px;">
                     	<div class="holiday_photo"><img src="http://bluemaxholidays.com/uploaded_files/tour_category/image_3.jpg" width="" height="" title="" alt="Alleppey Kumarakom Houseboat Honeymoon packages" border="0"></div>
                         <h2>Alleppey Kumarakom Houseboat Honeymoon packages</h2>
@@ -256,10 +256,10 @@ drawMenus();
                                                            	<li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5&cid=68">2 NIGHTS 3 DAYS BACKWATER PACKAGE<span>02 Nights/ 03 Days</span></a></li>
                                                            </ul>
                         </div>
-                        <div class="viewall"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&cid=3&category_id=3">View all</a></div>                    
+                        <div class="viewall"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&cid=3&category_id=3">View all</a></div>
                     <div class="clear"></div>
-                  	</div>                  
-				 
+                  	</div>
+
                     <div class="holiday_package" style="margin:0px;padding-left:27px;">
                     	<div class="holiday_photo"><img src="http://bluemaxholidays.com/uploaded_files/tour_category/image_4.jpg" width="" height="" title="" alt="Students tours" border="0"></div>
                         <h2>Students tours</h2>
@@ -270,33 +270,33 @@ drawMenus();
                                                            	<li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5&cid=71">ANDAMAN HOLIDAY PACKAGES<span>04 Nights/05 Days</span></a></li>
                                                            </ul>
                         </div>
-                        <div class="viewall"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&cid=4&category_id=4">View all</a></div>                    
+                        <div class="viewall"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&cid=4&category_id=4">View all</a></div>
                     <div class="clear"></div>
-                  	</div>                  
-				                    
-               
-                    
-                    
-                    
-                    
-                <div class="clear"></div>    
+                  	</div>
+
+
+
+
+
+
+                <div class="clear"></div>
                 </div>
                 <!--HOLIDAY PACKAGE AREA END-->
-                
-                
+
+
                 <!--MIDDLE AREA START-->
                 <div id="MiddleArea">
-                	
+
                 						<div id="AyurvedaPakages">
                     	<h1>Ayurveda Pack</h1>
                         <div class="ayurveda_image"><img src="http://bluemaxholidays.com/uploaded_files/tour_category/image_6.jpg" width="" height="" title="" alt="Ayurveda Pack" border="0"></div>
                         <p>Ayurveda is not just a system of medicine, it is indeed a science and way of life.
 Legend says that ancient system of medicine was.. instrcted to the ancient sages by the Gods themselves. Orginated in India around 3000 BC, and pioneered by renowned sages- Sushruth,Charaka and Vagbhata, this ethnic and unique system of medicine is still in vogue and gaining popularity and acceptance all over the world.We provide you with rejuvenating Ayurvedic packages with the best Ayurvedic centers with qualified doctors.</p>
-                    <div class="readmore"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&category_id=6">Read more</a></div> 
+                    <div class="readmore"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&category_id=6">Read more</a></div>
                     <div class="clear"></div>
                     </div>
-                    
-                    
+
+
                    <!--FEATRUED TOURS AREA START-->
 					     <div id="FeaturedTours">
                     	<h1>Featured Tours</h1>
@@ -313,19 +313,19 @@ Legend says that ancient system of medicine was.. instrcted to the ancient sages
                             	<div><img src="http://bluemaxholidays.com/uploaded_files/tour/image_74.jpg" width="" height="" title="" alt="GOLDEN TRIANGLE  PACKAGE" border="0"></div>
                                 <a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5&cid=74">GOLDEN TRIANGLE  PACKAGE</a>
                           	</li>
-                          	                           
+
                         </ul>
-                      
-                      <div class="readmore" style="margin-top:10px;"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5">View all</a></div> 
+
+                      <div class="readmore" style="margin-top:10px;"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5">View all</a></div>
                     <div class="clear"></div>
                     </div>
                     <!--FEATRUED TOURS AREA END-->
-                    
-                    
+
+
                     <div id="PlanYourTriparea">
                    	  <div class="planoyourtrip">
                             <h3>Plan Your Trip</h3>
-                          <form method="post" action="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5">  
+                          <form method="post" action="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5">
                             <select name="category_id" size="1" class="listmenu">
                               <option value="">Select Category</option>
                               <option value="7" >Kerala honeymoon packages</option><option value="2" >North Indian packages</option><option value="3" >Alleppey Kumarakom Houseboat Honeymoon packages</option><option value="4" >Students tours</option><option value="6" >Ayurveda Pack</option><option value="5" >International Tours</option><option value="10" >Featured Tours</option>							</select>
@@ -336,7 +336,7 @@ Legend says that ancient system of medicine was.. instrcted to the ancient sages
                             </form>
                       	<div class="clear"></div>
                       </div>
-                        
+
                         <div class="planoyourtrip">
                             <h3>Find Hotel / Resort</h3>
                              <form method="post" action="http://bluemaxholidays.com/index.php?app=hotel&tpl=view&task=booking&mid=6">
@@ -345,33 +345,33 @@ Legend says that ancient system of medicine was.. instrcted to the ancient sages
                             </form>
                       	<div class="clear"></div>
                         </div>
-                                                
+
                     </div>
-                
-                
+
+
                 <div class="clear"></div>
                 </div>
                 <!--MIDDLE AREA END-->
-                
-                
+
+
                 <!--BTTOM LINKS AREA START-->
 				                <div id="BottomLinksarea">
                 	<div class="tourpackages" style="padding-left:0px;">
                     	<h1>Tour Packages</h1>
                         <ul>
-								
+
                             <li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&category_id=6">Ayurveda Pack</a></li>
-                            	
+
                             <li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&category_id=5">International Tours</a></li>
                                                   	</ul>
-                    
+
 <style type="text/css">
 .bl a:link {color: #fff;} .bl a:visited {color: #fff;} .bl a:hover {color: #fff;} .bl a:active {color: #fff;}</style>
 <div class="bl"><a href="http://x-sexy.in/escorts.php?location=Lucknow" target="_blank">Lucknow Escorts</a><br/>
 <a href="http://dolly.co.in" target="_blank">Bangalore Escorts</a></div>
 
                     </div>
-                    
+
                     <div class="tourpackages">
                     	<h1>Services</h1>
                         <ul>
@@ -381,9 +381,9 @@ Legend says that ancient system of medicine was.. instrcted to the ancient sages
                             <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=11">Health Tourism</a></li>
                             <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=12">Kerala Taxi</a></li>
                       	</ul>
-                    
+
                     </div>
-                    
+
                     <div class="tourpackages">
                     	<h1>Know Kerala</h1>
                         <ul>
@@ -393,9 +393,9 @@ Legend says that ancient system of medicine was.. instrcted to the ancient sages
                             <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=15">Cuisine</a></li>
                             <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=16">People & Life Style</a></li>
                       	</ul>
-                   
+
                     </div>
-                    
+
                     <div class="followus_area">
                     	<h1>Follow Us on</h1>
                         <div class="follow_icon">
@@ -407,16 +407,16 @@ Legend says that ancient system of medicine was.. instrcted to the ancient sages
                             </ul>
                         <div class="clear"></div>
                         </div>
-                        
+
                         <div class="photogallery"><a href="http://bluemaxholidays.com/index.php?app=photo&tpl=view&task=showAll&mid=17">Photo Gallery</a></div>
                         <div class="videogallery"><a href="http://bluemaxholidays.com/index.php?app=video&tpl=view&task=showAll&mid=18">Video Gallery</a></div>
-                        
+
                     </div>
-               
+
                <div class="clear"></div>
                </div>
                <!--BTTOM LINKS AREA END-->
-               
+
                <!--FOOTER AREA START-->
                 <div id="Footer_area">
                   <div id="Leftfooter">Copyright @ 2016 www.bluemaxholidays.com. All Rights Reserved </div>
@@ -431,18 +431,18 @@ _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
 $.src='//v2.zopim.com/?2AG4yKzQnKECUzHoB2xN3YogPWyogCUI';z.t=+new Date;$.
 type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
 </script>
-<!--End of Zopim Live Chat Script-->                
-            
+<!--End of Zopim Live Chat Script-->
+
             <div class="clear"></div>
             </div>
             <!--CONTETN AREA END-->
-            
-            
-            
+
+
+
         <div class="clear"></div>
         </div>
         <!--WRAPPER DIV END-->
-    
+
     <div class="clear"></div>
     </div>
     <!--WRAPPER MAIN DIV END-->
