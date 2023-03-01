@@ -154,7 +154,7 @@ drawMenus();
                     <li><a href="http://bluemaxholidays.com/about.html" class="">About&nbsp;Us </a></li>
                     <li><a href="#" id='A3' onMouseOver='popup("A3","A3");' onMouseOut='popdown()' class="">Destinations</a></li>
                     <li><a href="http://bluemaxholidays.com/art-and-culture.html" class="">Art&nbsp;&amp;&nbsp;Culture</a></li>
-                    <li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5" class="">Tour&nbsp;Packages</a></li>
+                    <li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5" class="active">Tour&nbsp;Packages</a></li>
                     <li><a href="http://bluemaxholidays.com/index.php?app=hotel&tpl=view&task=showAll&mid=6" class="">Accomodation</a></li>
                     <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=7" class="">Travel&nbsp;Desk</a></li>
                     <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=contact&mid=8" class="">Contact&nbsp;Us </a></li>
@@ -170,7 +170,7 @@ drawMenus();
      <div id="Whatsnew_head">What’s New</div>
       <div id="Whatsnew_textarea">
         <ul>
-          <li>Confernce</li>        </ul>
+          <li style="background:none;"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=list&mid=5">Tour Packages</a></li><li><a href="#" class="active">Ayurveda Pack</a></li>        </ul>
       </div>
       <div class="clear"></div>
     </div>
@@ -178,14 +178,36 @@ drawMenus();
 
     <!--CONTETN AREA START-->
     <div id="ContentArea">
-      <h1>Confernce</h1>
+      <h1>Tour Packages</h1>
       <div id="MainContentarea">
 
         <!--LEFT CONTENT AREA START-->
         <div id="LeftContentarea">
 
-      <p> </p>
-                <div class="clear"></div>
+    <br />
+      <!--SELECT CATOGERY AREA START-->
+	  <form name="search" action="" method="POST" style="padding:0px;margin:0px;">
+      <div class="catagory_area">
+        <div class="listmenu">
+          <select name="category_id" class="category">
+            <option value="">Select Category</option>
+            <option value="7" >Kerala honeymoon packages</option><option value="2" >North Indian packages</option><option value="3" >Alleppey Kumarakom Houseboat Honeymoon packages</option><option value="4" >Students tours</option><option value="6" >Ayurveda Pack</option><option value="5" >International Tours</option><option value="10" >Featured Tours</option>          </select>
+        </div>
+        <div class="listmenu">
+          <select name="duration_id" class="category">
+            <option value="">Select Duration</option>
+            <option value="12" >01 Nights / 02 Days</option><option value="14" >11 Nights / 12 Days</option><option value="15" >12 Nights / 13 Days</option><option value="16" >13 Nights / 14 Days</option><option value="13" >14 Nights / 15 Days</option><option value="11" >Day Trip</option><option value="2" >02 Nights/ 03 Days</option><option value="3" >03 Nights/04 Days</option><option value="4" >04 Nights/05 Days</option><option value="5" >05 Nights/06 Days</option><option value="6" >06 Nights/07 Days</option><option value="7" >07 Nights/08 Days</option><option value="8" >08 Nights/09 Days</option><option value="9" >09 Nights/10 Days</option><option value="10" >10 Nights/11 Days</option>          </select>
+        </div>
+        <div class="submitbtn_area">
+          <input name="" type="submit" class="submitbtn" value=""/>
+        </div>
+        <div class="clear"></div>
+      </div>
+	  </form>
+      <!--SELECT CATOGERY AREA END-->
+
+
+          <div class="clear"></div>
         </div>
         <!--LEFT CONTENT AREA END-->
 
@@ -283,9 +305,9 @@ drawMenus();
                     	<h1>Tour Packages</h1>
                         <ul>
 
-                            <li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&category_id=6">Ayurveda Pack</a></li>
+                            <li><a href="http://bluemaxholidays.com/ayurveda-health-tourism-package.html">Ayurveda Pack</a></li>
 
-                            <li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&category_id=5">International Tours</a></li>
+                            <li><a href="http://bluemaxholidays.com/international-tour-package.html">International Tours</a></li>
                                                   	</ul>
 
 
@@ -295,11 +317,11 @@ drawMenus();
                     <div class="tourpackages">
                     	<h1>Services</h1>
                         <ul>
-                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=9">Confernce</a></li>
-                            <li><a href="http://bluemaxholidays.com/index.php?app=hotel&tpl=view&task=booking&mid=6">Hotel Booking</a></li>
-                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=10">Ticketing</a></li>
-                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=11">Health Tourism</a></li>
-                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=12">Kerala Taxi</a></li>
+                            <li><a href="http://bluemaxholidays.com/conference.html">Conference</a></li>
+                            <li><a href="http://bluemaxholidays.com/hotel-booking.html">Hotel Booking</a></li>
+                            <li><a href="http://bluemaxholidays.com/ticketing.html">Ticketing</a></li>
+                            <li><a href="http://bluemaxholidays.com/health-tourism.html">Health Tourism</a></li>
+                            <li><a href="http://bluemaxholidays.com/kerala-taxi.html">Kerala Taxi</a></li>
                       	</ul>
 
                     </div>
@@ -307,11 +329,11 @@ drawMenus();
                     <div class="tourpackages">
                     	<h1>Know Kerala</h1>
                         <ul>
-                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=13">Overview</a></li>
-                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=14">A Brief History</a></li>
+                            <li><a href="http://bluemaxholidays.com/overview.html">Overview</a></li>
+                            <li><a href="http://bluemaxholidays.com/a-brief-history.html">A Brief History</a></li>
                             <li><a href="http://bluemaxholidays.com/art-and-culture.html">Art & Culture</a></li>
-                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=15">Cuisine</a></li>
-                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=16">People & Life Style</a></li>
+                            <li><a href="http://bluemaxholidays.com/cuisine.html">Cuisine</a></li>
+                            <li><a href="http://bluemaxholidays.com/people-and-life-style.html">People & Life Style</a></li>
                       	</ul>
 
                     </div>

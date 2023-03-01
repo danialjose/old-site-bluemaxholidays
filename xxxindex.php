@@ -205,9 +205,9 @@ drawMenus();
                         <h2>Kerala honeymoon packages</h2>
                         <div class="holiday_duration">
                         	<ul>
-								                            	<li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5&cid=57">2 NIGHTS 3 DAYS TOUR PACKAGES<span>02 Nights/ 03 Days</span></a></li>
-                                                           	<li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5&cid=58">3 NIGHTS 4 DAYS TOUR PACKAGES<span>03 Nights/04 Days</span></a></li>
-                                                           	<li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5&cid=59">4 NIGHTS 5 DAYS TOUR PACKAGES<span>04 Nights/05 Days</span></a></li>
+								                            	<li><a href="http://bluemaxholidays.com/two-nights-three-days-tour-package.html">2 NIGHTS 3 DAYS TOUR PACKAGES<span>02 Nights/ 03 Days</span></a></li>
+                                                           	<li><a href="http://bluemaxholidays.com/three-nights-four-days-tour-packages.html">3 NIGHTS 4 DAYS TOUR PACKAGES<span>03 Nights/04 Days</span></a></li>
+                                                           	<li><a href="http://bluemaxholidays.com/four-nights-five-days-tour-packages.html">4 NIGHTS 5 DAYS TOUR PACKAGES<span>04 Nights/05 Days</span></a></li>
                                                            </ul>
                         </div>
                         <div class="viewall"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&cid=7&category_id=7">View all</a></div>
@@ -219,12 +219,12 @@ drawMenus();
                         <h2>North Indian packages</h2>
                         <div class="holiday_duration">
                         	<ul>
-								                            	<li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5&cid=70">HIMACHAL TOUR PACKAGE<span>07 Nights/08 Days</span></a></li>
-                                                           	<li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5&cid=73">KASHMIR TOUR PACKAGE<span>03 Nights/04 Days</span></a></li>
-                                                           	<li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5&cid=74">GOLDEN TRIANGLE  PACKAGE<span>05 Nights/06 Days</span></a></li>
+								                            	<li><a href="http://bluemaxholidays.com/himachal-tour-package.html">HIMACHAL TOUR PACKAGE<span>07 Nights/08 Days</span></a></li>
+                                                           	<li><a href="http://bluemaxholidays.com/kashmir-tour-package.html">KASHMIR TOUR PACKAGE<span>03 Nights/04 Days</span></a></li>
+                                                           	<li><a href="http://bluemaxholidays.com/delhi-agra-rajasthan-golden-triangle-tour-package.html">GOLDEN TRIANGLE  PACKAGE<span>05 Nights/06 Days</span></a></li>
                                                            </ul>
                         </div>
-                        <div class="viewall"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&cid=2&category_id=2">View all</a></div>
+                        <div class="viewall"><a href="http://bluemaxholidays.com/view-all-packages.html">View all</a></div>
                     <div class="clear"></div>
                   	</div>
 
@@ -233,9 +233,9 @@ drawMenus();
                         <h2>Alleppey Kumarakom Houseboat Honeymoon packages</h2>
                         <div class="holiday_duration">
                         	<ul>
-								                            	<li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5&cid=66">1 NIGHT 2 DAYS HOUSEBOAT PACKAGE<span>01 Nights / 02 Days</span></a></li>
-                                                           	<li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5&cid=67">2 NIGHTS 3 DAYS ALLEPPEY  KUMMARKOM PACKAGE<span>02 Nights/ 03 Days</span></a></li>
-                                                           	<li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5&cid=68">2 NIGHTS 3 DAYS BACKWATER PACKAGE<span>02 Nights/ 03 Days</span></a></li>
+								                            	<li><a href="http://bluemaxholidays.com/one-night-two-days-houseboat-stay.html">1 NIGHT 2 DAYS HOUSEBOAT PACKAGE<span>01 Nights / 02 Days</span></a></li>
+                                                           	<li><a href="http://bluemaxholidays.com/two-nights-three-days-in-alleppey.html">2 NIGHTS 3 DAYS ALLEPPEY  KUMMARKOM PACKAGE<span>02 Nights/ 03 Days</span></a></li>
+                                                           	<li><a href="http://bluemaxholidays.com/two-nights-three-days-backwater-tours.html">2 NIGHTS 3 DAYS BACKWATER PACKAGE<span>02 Nights/ 03 Days</span></a></li>
                                                            </ul>
                         </div>
                         <div class="viewall"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&cid=3&category_id=3">View all</a></div>
@@ -247,9 +247,9 @@ drawMenus();
                         <h2>Students tours</h2>
                         <div class="holiday_duration">
                         	<ul>
-								                            	<li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5&cid=44">ALLEPPEY STUDENTS TOUR<span>Day Trip</span></a></li>
-                                                           	<li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5&cid=72">ANDAMAN HOLIDAY PACKAGES<span>06 Nights/07 Days</span></a></li>
-                                                           	<li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5&cid=71">ANDAMAN HOLIDAY PACKAGES<span>04 Nights/05 Days</span></a></li>
+								                            	<li><a href="http://bluemaxholidays.com/alleppey-students-tour.html">ALLEPPEY STUDENTS TOUR<span>Day Trip</span></a></li>
+                                                           	<li><a href="http://bluemaxholidays.com/andaman-holidays-package.html">ANDAMAN HOLIDAY PACKAGES<span>06 Nights/07 Days</span></a></li>
+                                                           	<li><a href="http://bluemaxholidays.com/andaman-islands-holidays-package.html">ANDAMAN HOLIDAY PACKAGES<span>04 Nights/05 Days</span></a></li>
                                                            </ul>
                         </div>
                         <div class="viewall"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&cid=4&category_id=4">View all</a></div>
@@ -274,7 +274,7 @@ drawMenus();
                         <div class="ayurveda_image"><img src="http://bluemaxholidays.com/uploaded_files/tour_category/image_6.jpg" width="" height="" title="" alt="Ayurveda Pack" border="0"></div>
                         <p>Ayurveda is not just a system of medicine, it is indeed a science and way of life.
 Legend says that ancient system of medicine was.. instrcted to the ancient sages by the Gods themselves. Orginated in India around 3000 BC, and pioneered by renowned sages- Sushruth,Charaka and Vagbhata, this ethnic and unique system of medicine is still in vogue and gaining popularity and acceptance all over the world.We provide you with rejuvenating Ayurvedic packages with the best Ayurvedic centers with qualified doctors.</p>
-                    <div class="readmore"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&category_id=6">Read more</a></div>
+                    <div class="readmore"><a href="http://bluemaxholidays.com/ayurveda-health-tourism-package.html">Read more</a></div>
                     <div class="clear"></div>
                     </div>
 
@@ -285,15 +285,15 @@ Legend says that ancient system of medicine was.. instrcted to the ancient sages
                         <ul>
                         	                        	<li style="">
                             	<div><img src="http://bluemaxholidays.com/uploaded_files/tour/image_71.jpg" width="" height="" title="" alt="ANDAMAN HOLIDAY PACKAGES" border="0"></div>
-                                <a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5&cid=71">ANDAMAN HOLIDAY PACKAGES</a>
+                                <a href="http://bluemaxholidays.com/andaman-islands-holidays-package.html">ANDAMAN HOLIDAY PACKAGES</a>
                           	</li>
                           	                        	<li style="margin-left:10px">
                             	<div><img src="http://bluemaxholidays.com/uploaded_files/tour/image_72.jpg" width="" height="" title="" alt="ANDAMAN HOLIDAY PACKAGES" border="0"></div>
-                                <a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5&cid=72">ANDAMAN HOLIDAY PACKAGES</a>
+                                <a href="http://bluemaxholidays.com/andaman-holidays-package.html">ANDAMAN HOLIDAY PACKAGES</a>
                           	</li>
                           	                        	<li style="margin-left:10px">
                             	<div><img src="http://bluemaxholidays.com/uploaded_files/tour/image_74.jpg" width="" height="" title="" alt="GOLDEN TRIANGLE  PACKAGE" border="0"></div>
-                                <a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=details&mid=5&cid=74">GOLDEN TRIANGLE  PACKAGE</a>
+                                <a href="http://bluemaxholidays.com/delhi-agra-rajasthan-golden-triangle-tour-package.html">GOLDEN TRIANGLE  PACKAGE</a>
                           	</li>
 
                         </ul>
@@ -321,7 +321,7 @@ Legend says that ancient system of medicine was.. instrcted to the ancient sages
 
                         <div class="planoyourtrip">
                             <h3>Find Hotel / Resort</h3>
-                             <form method="post" action="http://bluemaxholidays.com/index.php?app=hotel&tpl=view&task=booking&mid=6">
+                             <form method="post" action="http://bluemaxholidays.com/hotel-booking.html">
                             <div class="hotelimage"><img src="images/hotel.jpg" alt="" /></div>
                             <input name="Proceed" type="submit" class="proceed_btn" value=""/>
                             </form>
@@ -342,9 +342,9 @@ Legend says that ancient system of medicine was.. instrcted to the ancient sages
                     	<h1>Tour Packages</h1>
                         <ul>
 
-                            <li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&category_id=6">Ayurveda Pack</a></li>
+                            <li><a href="http://bluemaxholidays.com/ayurveda-health-tourism-package.html">Ayurveda Pack</a></li>
 
-                            <li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&category_id=5">International Tours</a></li>
+                            <li><a href="http://bluemaxholidays.com/international-tour-package.html">International Tours</a></li>
                                                   	</ul>
 
 
@@ -354,11 +354,11 @@ Legend says that ancient system of medicine was.. instrcted to the ancient sages
                     <div class="tourpackages">
                     	<h1>Services</h1>
                         <ul>
-                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=9">Confernce</a></li>
-                            <li><a href="http://bluemaxholidays.com/index.php?app=hotel&tpl=view&task=booking&mid=6">Hotel Booking</a></li>
-                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=10">Ticketing</a></li>
-                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=11">Health Tourism</a></li>
-                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=12">Kerala Taxi</a></li>
+                            <li><a href="http://bluemaxholidays.com/conference.html">Conference</a></li>
+                            <li><a href="http://bluemaxholidays.com/hotel-booking.html">Hotel Booking</a></li>
+                            <li><a href="http://bluemaxholidays.com/ticketing.html">Ticketing</a></li>
+                            <li><a href="http://bluemaxholidays.com/health-tourism.html">Health Tourism</a></li>
+                            <li><a href="http://bluemaxholidays.com/kerala-taxi.html">Kerala Taxi</a></li>
                       	</ul>
 
                     </div>
@@ -366,11 +366,11 @@ Legend says that ancient system of medicine was.. instrcted to the ancient sages
                     <div class="tourpackages">
                     	<h1>Know Kerala</h1>
                         <ul>
-                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=13">Overview</a></li>
-                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=14">A Brief History</a></li>
+                            <li><a href="http://bluemaxholidays.com/overview.html">Overview</a></li>
+                            <li><a href="http://bluemaxholidays.com/a-brief-history.html">A Brief History</a></li>
                             <li><a href="http://bluemaxholidays.com/art-and-culture.html">Art & Culture</a></li>
-                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=15">Cuisine</a></li>
-                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=16">People & Life Style</a></li>
+                            <li><a href="http://bluemaxholidays.com/cuisine.html">Cuisine</a></li>
+                            <li><a href="http://bluemaxholidays.com/people-and-life-style.html">People & Life Style</a></li>
                       	</ul>
 
                     </div>
