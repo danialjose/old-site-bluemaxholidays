@@ -136,24 +136,6 @@ with(menuStyleL=new mm_style()){
 				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Booking Enquiry &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=booking&mid=8;target=_self");
 				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Us &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://bluemaxholidays.com/index.php?app=content&tpl=view&task=contact&mid=8;target=_self");
 				}
-
-		with(link=new menuname("A6"))
-		{
-		style=menuStyleL;
-		overflow="scroll";
-		position="fixed";
-				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Customized Tours &nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://visitkerala.in/customized_tours;target=_self");
-				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rent-a-Car &nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://visitkerala.in/Rent-a-Car;target=_self");
-				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Travel Tips &nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://visitkerala.in/travel_tips;target=_self");
-				}
-		with(link=new menuname("A7"))
-		{
-		style=menuStyleL;
-		overflow="scroll";
-		position="fixed";
-				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Booking Enquiry &nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://visitkerala.in/booking;target=_self");
-				aI("text=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contact Us &nbsp;&nbsp;&nbsp;&nbsp;</font>;url=http://visitkerala.in/contacts;target=_self");
-				}
 drawMenus();
 </script><!--Nvigation End-->
 </head>
@@ -168,10 +150,10 @@ drawMenus();
     <!--NAVIGATION AREA START-->
     <div id="Navigation">
      				<ul>
-                	<li><a href="http://bluemaxholidays.com/index.php?app=" class="">Home</a></li>
-                    <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=2" class="">About&nbsp;Us </a></li>
+                	<li><a href="http://bluemaxholidays.com/index.html" class="">Home</a></li>
+                    <li><a href="http://bluemaxholidays.com/about.html" class="">About&nbsp;Us </a></li>
                     <li><a href="#" id='A3' onMouseOver='popup("A3","A3");' onMouseOut='popdown()' class="">Destinations</a></li>
-                    <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=4" class="">Art&nbsp;&amp;&nbsp;Culture</a></li>
+                    <li><a href="http://bluemaxholidays.com/art-and-culture.html" class="">Art&nbsp;&amp;&nbsp;Culture</a></li>
                     <li><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5" class="active">Tour&nbsp;Packages</a></li>
                     <li><a href="http://bluemaxholidays.com/index.php?app=hotel&tpl=view&task=showAll&mid=6" class="">Accomodation</a></li>
                     <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=7" class="">Travel&nbsp;Desk</a></li>
@@ -526,7 +508,7 @@ mso-fareast-font-family:&quot;Times New Roman&quot;;color:#222222"><o:p></o:p></
                         <ul>
                             <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=13">Overview</a></li>
                             <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=14">A Brief History</a></li>
-                            <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=4">Art & Culture</a></li>
+                            <li><a href="http://bluemaxholidays.com/art-and-culture.html">Art & Culture</a></li>
                             <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=15">Cuisine</a></li>
                             <li><a href="http://bluemaxholidays.com/index.php?app=content&tpl=view&task=details&mid=16">People & Life Style</a></li>
                       	</ul>
