@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document Created By Fayas Majeed */
-
+* {max-width: 100%}
 *{
 	margin:0;
 	padding:0;
@@ -37,7 +37,7 @@ h1{
 }
 
 H2 {
-	
+
 }
 
 H3 {
@@ -49,15 +49,15 @@ H3 {
 }
 
 H4 {
-	
+
 }
 
 H5 {
-	
+
 }
 
 UL LI {
-	list-style-type:none;	
+	list-style-type:none;
 }
 
 P {
@@ -81,9 +81,54 @@ img{
 	clear:both;
 }
 
-/*---Main Style Start Here---*/
+/*---Main Style Start Here--- old css values
+
 #WrapperMain{
 	width:1003px;
+	margin:0 auto;
+}
+
+#Wrapper{
+	width:974px;
+	margin:0 auto;
+}
+
+#Wrapper{
+	width:974px;
+	margin:0 auto;
+}
+#Header_area{
+	width:974px;
+	height:151px;
+}
+
+#Navigation{
+	width:974px;
+	height:40px;
+	background:url(/web/20160514210853im_/http://bluemaxholidays.com/images/navibg.gif) repeat-x;
+}
+
+#Banner{
+	width:974px;
+	height:230px;
+	margin:10px 0px;
+}
+
+#Whatsnew_textarea{
+	width:822px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#222222;
+	float:left;
+	background:url(/web/20160514210853im_/http://bluemaxholidays.com/images/watsnew_arrow.png) left center no-repeat;
+	padding:12px 15px;
+}
+
+*/
+
+
+#WrapperMain{
+	max-width:1003px;
 	margin:0 auto;
 }
 
@@ -189,7 +234,7 @@ img{
 	font-size:12px;
 	color:#000000;
 	display:block;
-	text-decoration:none;	
+	text-decoration:none;
 }
 
 #Whatsnew_textarea ul li a:hover,#Whatsnew_textarea ul li a.active{
@@ -299,7 +344,7 @@ img{
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:14px;
 	color:#222222;
-}	
+}
 
 .tour_details p{
 	font-family:Arial, Helvetica, sans-serif;
@@ -516,7 +561,7 @@ DIV#Leftfooter{
 
 DIV#Rightfooter{
 	color:#7f7f7f;
-	float:right;	
+	float:right;
 }
 
 DIV#Rightfooter a{

@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document Created By Fayas Majeed */
-
+* {max-width: 100%}
 *{
 	margin:0;
 	padding:0;
@@ -87,7 +87,7 @@ img{
 
 /*---Main Style Start Here---*/
 #WrapperMain{
-	width:auto;
+	max-width:1003px;
 	margin:0 auto;
 }
 
