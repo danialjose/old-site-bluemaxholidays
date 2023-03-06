@@ -210,7 +210,7 @@ drawMenus();
                                                            	<li><a href="http://bluemaxholidays.com/four-nights-five-days-tour-packages.html">4 NIGHTS 5 DAYS TOUR PACKAGES<span>04 Nights/05 Days</span></a></li>
                                                            </ul>
                         </div>
-                        <div class="viewall"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&cid=7&category_id=7">View all</a></div>
+                        <div class="viewall"><a href="href="https://bluemaxholidays.com/tour-packages.html&cid=7&category_id=7">View all</a></div>
                     <div class="clear"></div>
                   	</div>
 
@@ -238,7 +238,7 @@ drawMenus();
                                                            	<li><a href="http://bluemaxholidays.com/two-nights-three-days-backwater-tours.html">2 NIGHTS 3 DAYS BACKWATER PACKAGE<span>02 Nights/ 03 Days</span></a></li>
                                                            </ul>
                         </div>
-                        <div class="viewall"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&cid=3&category_id=3">View all</a></div>
+                        <div class="viewall"><a href="href="https://bluemaxholidays.com/tour-packages.html&cid=3&category_id=3">View all</a></div>
                     <div class="clear"></div>
                   	</div>
 
@@ -252,7 +252,7 @@ drawMenus();
                                                            	<li><a href="http://bluemaxholidays.com/andaman-islands-holidays-package.html">ANDAMAN HOLIDAY PACKAGES<span>04 Nights/05 Days</span></a></li>
                                                            </ul>
                         </div>
-                        <div class="viewall"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5&cid=4&category_id=4">View all</a></div>
+                        <div class="viewall"><a href="href="https://bluemaxholidays.com/tour-packages.html&cid=4&category_id=4">View all</a></div>
                     <div class="clear"></div>
                   	</div>
 
@@ -298,7 +298,7 @@ Legend says that ancient system of medicine was.. instrcted to the ancient sages
 
                         </ul>
 
-                      <div class="readmore" style="margin-top:10px;"><a href="http://bluemaxholidays.com/index.php?app=tour&tpl=view&task=showAll&mid=5">View all</a></div>
+                      <div class="readmore" style="margin-top:10px;"><a href="href="https://bluemaxholidays.com/tour-packages.html">View all</a></div>
                     <div class="clear"></div>
                     </div>
                     <!--FEATRUED TOURS AREA END-->
