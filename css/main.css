@@ -1,6 +1,5 @@
 @charset "utf-8";
 /* CSS Document Created By Fayas Majeed */
-* {max-width: 100%}
 *{
 	margin:0;
 	padding:0;
@@ -507,9 +506,9 @@ DIV#Rightfooter a:hover{
 /*responsive css testing*/
 #WrapperMain {
 	width:auto;
-	max-width:1003px
+	max-width:800px
 }
-#wrapper {
+#Wrapper {
 	width:auto;
 	max-width:800px
 }
