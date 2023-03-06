@@ -587,6 +587,90 @@ DIV#Rightfooter a:hover{
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
      SECTION 108(a)(3)).
 */
+
+#WrapperMain {
+	width:auto;
+	max-width:1003px
+}
+#wrapper {
+	width:auto;
+	max-width:800px
+}
+#Header_area {
+	width:auto;
+	max-width:800px
+}
+#Navigation {
+	width:auto;
+	max-width:800px
+}
+#slider-wrapper {
+	width:100%;
+	height:auto;
+	margin:auto;
+	display:block;
+}
+#slider {
+	width:100%;
+	height:auto;
+	margin:auto;
+	display:block;
+}
+img {max-width:100%}
+#footer {width:auto}
+@media screen and (max-width:600px) {
+	#avmenu {float:none;width:auto;}
+	#avmenu ul {width:100%}
+	#avmenu img, #avmenu iframe, #avmenu ins, #content ins, ins {
+		display:block!important;
+		margin:auto!important;
+		max-width:100%;
+		overflow:hidden;
+	}
+	#content {margin:10px 0}
+	.announce {margin:auto}
+ 	#header, #footer, #content {margin:0 0 10px}
+	#header h1 {float:none;	width:auto;}
+	* {	max-width:100%}
+	#wrap {overflow:hidden}
+}
+#Whatsnew_area {
+	width:100%;
+	height:auto;
+	margin:auto;
+	display:block;
+}
+#ContentArea {
+	width:100%;
+	height:auto;
+	margin:auto;
+	display:block;
+}
+#HodidayPackagearea {
+	width:100%;
+	height:auto;
+	margin:auto;
+	display:block;
+}
+#MiddleArea {
+	width:100%;
+	height:auto;
+	margin:auto;
+	display:block;
+}
+
+#BottomLinksarea{
+	width:100%;
+	height:auto;
+	margin:auto;
+	display:block;
+}
+#Footer_area{
+	width:100%;
+	height:auto;
+	margin:auto;
+	display:block;
+}
 /*
 playback timings (ms):
   captures_list: 192.907
