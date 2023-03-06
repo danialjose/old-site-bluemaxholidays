@@ -392,10 +392,15 @@ color:#222222;"><br />
 
       <!--FOOTER AREA START-->
       <div id="Footer_area">
-                  <div id="Leftfooter">Copyright @ 2016 -2023 www.bluemaxholidays.com. All Rights Reserved </div>
+                  <div id="Leftfooter">Copyright @ 2016 - <span id="yearNumber"></span> www.bluemaxholidays.com. All Rights Reserved </div>
                   <div id="Rightfooter">Design & Developed by <a href="http://danjose.pt/" target="_blank">danjose.pt</a></div>
                 </div>
 
+
+<script>
+        var year = new Date().getFullYear();
+        document.getElementById("yearNumber").innerHTML = year;
+</script>
 <!--Start of Zopim Live Chat Script-->
 <script type="text/javascript">
 window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
