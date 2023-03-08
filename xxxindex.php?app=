@@ -154,7 +154,7 @@ drawMenus();
 	<div id="WrapperMain">
     	<div id="Wrapper">
            			<div id="Header_area">
-            	<div id="LogoLeft"><a href="index.html"><img src="images/bluemaxholiday-logo.png" alt="" border="0" width="120"/></a></div>
+            	<div id="LogoLeft"><a href="index.html"><img src="images/bluemaxholidays-logo.png" alt="" border="0" width="120"/></a></div>
                 <div id="LogoRight"><img src="http://bluemaxholidays.com/uploaded_files/banner/Kerala_Gods_Own_Country_Logo.svg" width="148" height="111" title="" alt="top" border="0"></div>
             </div>
 
