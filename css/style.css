@@ -12,7 +12,7 @@ body{
 	color:#000000;
 	margin:0 auto;
 	padding:0;
-	background:url(/web/20160514210853im_/http://bluemaxholidays.com/images/bg-3.svg) center top no-repeat;
+	background:url(../images/bg-3.svg) center top no-repeat;
 }
 
 ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{
@@ -161,7 +161,7 @@ img{
 #Navigation{
 	width:974px;
 	height:40px;
-	background:url(/web/20160514210853im_/http://bluemaxholidays.com/images/navibg.gif) repeat-x;
+	background:url(../images/navibg.gif) repeat-x;
 }
 
 #Navigation ul li{
@@ -179,7 +179,7 @@ img{
 }
 
 #Navigation ul li a:hover,#Navigation ul li a.active{
-	background:url(/web/20160514210853im_/http://bluemaxholidays.com/images/navi_over.gif) repeat-x;
+	background:url(../images/navi_over.gif) repeat-x;
 }
 /*---Navigation Start End---*/
 
@@ -213,7 +213,7 @@ img{
 	font-size:12px;
 	color:#222222;
 	float:left;
-	background:url(/web/20160514210853im_/http://bluemaxholidays.com/images/watsnew_arrow.png) left center no-repeat;
+	background:url(../images/watsnew_arrow.png) left center no-repeat;
 	padding:12px 15px;
 }
 
@@ -224,7 +224,7 @@ img{
 #Whatsnew_textarea ul li{
 	list-style:none;
 	float:left;
-	background:url(/web/20160514210853im_/http://bluemaxholidays.com/images/brudcrump_arrow.png) no-repeat;
+	background:url(../images/brudcrump_arrow.png) no-repeat;
 	background-position:0px 5px;
 	padding:0px 15px;
 }
@@ -271,7 +271,7 @@ img{
 .viewall{
 	width:62px;
 	height:19px;
-	background:url(/web/20160514210853im_/http://bluemaxholidays.com/images/vieall_bg.png) no-repeat;
+	background:url(../images/vieall_bg.png) no-repeat;
 	text-align:center;
 	padding-top:4px;
 }
@@ -315,7 +315,7 @@ img{
 .submitbtn{
 	width:58px;
 	height:20px;
-	background:url(/web/20160514210853im_/http://bluemaxholidays.com/images/submit_btn.png) no-repeat;
+	background:url(../images/submit_btn.png) no-repeat;
 	border:none;
 	cursor:pointer;
 }
@@ -365,7 +365,7 @@ img{
 	font-size:12px;
 	color:#222222;
 	text-decoration:underline;
-	background:url(/web/20160514210853im_/http://bluemaxholidays.com/images/readmore_arrow.png) right center no-repeat;
+	background:url(../images/readmore_arrow.png) right center no-repeat;
 	display:block;
 	padding-right:10px;
 }
@@ -417,14 +417,14 @@ img{
 	font-size:12px;
 	color:#222222;
 	text-decoration:none;
-	background:url(/web/20160514210853im_/http://bluemaxholidays.com/images/arrow_red.png) 15px center no-repeat #fff;
+	background:url(../images/arrow_red.png) 15px center no-repeat #fff;
 	border:none;
 	display:block;
 	padding:8px 0px 8px 25px;
 }
 
 #RightLinks ul li a:hover,#RightLinks ul li a.active{
-	background:url(/web/20160514210853im_/http://bluemaxholidays.com/images/arrow_red.png) 15px center no-repeat #ffdb4e;
+	background:url(../images/arrow_red.png) 15px center no-repeat #ffdb4e;
 }
 
 
@@ -457,7 +457,7 @@ img{
 	font-size:12px;
 	color:#000;
 	text-decoration:none;
-	background:url(/web/20160514210853im_/http://bluemaxholidays.com/images/arrow_black.png) left center no-repeat;
+	background:url(../images/arrow_black.png) left center no-repeat;
 	padding-left:13px;
 	display:block;
 }
@@ -477,7 +477,7 @@ img{
 	font-size:12px;
 	color:#000;
 	text-decoration:underline;
-	background:url(/web/20160514210853im_/http://bluemaxholidays.com/images/readmore_arrow.png) right center no-repeat;
+	background:url(../images/readmore_arrow.png) right center no-repeat;
 	display:block;
 }
 
@@ -517,7 +517,7 @@ img{
 	color:#222222;
 	text-decoration:none;
 	font-weight:bold;
-	background:url(/web/20160514210853im_/http://bluemaxholidays.com/images/photo_icon.png) left 0px no-repeat;
+	background:url(../images/photo_icon.png) left 0px no-repeat;
 	padding:5px 0px 0px 45px;
 	display:block;
 }
@@ -539,7 +539,7 @@ img{
 	color:#222222;
 	text-decoration:none;
 	font-weight:bold;
-	background:url(/web/20160514210853im_/http://bluemaxholidays.com/images/video_icon.png) left 0px no-repeat;
+	background:url(../images/video_icon.png) left 0px no-repeat;
 	padding:5px 0px 0px 45px;
 	display:block;
 }
